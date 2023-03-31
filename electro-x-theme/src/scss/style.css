@@ -100,6 +100,12 @@
   cursor: pointer;
 }
 
+.loginnav .container .row .nav-top {
+  display: flex;
+  padding-top: 23px;
+  align-items: baseline;
+  gap: 49px;
+}
 .loginnav .container .row .nav-top .site-logo {
   width: 144px;
   height: 43px;
@@ -111,4 +117,655 @@
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+.loginnav .container .row .nav-top .site-search {
+  display: flex;
+  align-items: center;
+}
+.loginnav .container .row .nav-top .site-search form .search-site {
+  width: 594px;
+  height: 39px;
+  border-radius: 25px 0px 0px 25px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border: 2px solid #fed700;
+  color: #333e48;
+}
+.loginnav .container .row .nav-top .site-search .bi-search {
+  padding: 5px 19px;
+  background-color: #fed700;
+  border-radius: 0px 25px 25px 0px;
+  color: #333;
+  font-size: 19px;
+  cursor: pointer;
+  height: 39px;
+}
+.loginnav .container .row .nav-top .site-search .bi-search:hover {
+  background-color: #333e48;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.loginnav .container .row .nav-top .site-action {
+  display: flex;
+  align-items: baseline;
+  gap: 54px;
+  justify-content: center;
+}
+.loginnav .container .row .nav-top .site-action .compare {
+  position: relative;
+}
+.loginnav .container .row .nav-top .site-action .compare .return {
+  width: 30px;
+  height: 30px;
+}
+.loginnav .container .row .nav-top .site-action .compare p {
+  margin: 0;
+  width: 21px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fed700;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  top: 16px;
+  right: -4px;
+}
+.loginnav .container .row .nav-top .site-action .heart {
+  position: relative;
+}
+.loginnav .container .row .nav-top .site-action .heart .heart-icon {
+  width: 30px;
+  height: 30px;
+}
+.loginnav .container .row .nav-top .site-action .heart p {
+  margin: 0;
+  width: 21px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fed700;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  top: 16px;
+  right: -4px;
+}
+.loginnav .container .row .nav-top .site-action .shop {
+  position: relative;
+}
+.loginnav .container .row .nav-top .site-action .shop .card-icon {
+  width: 30px;
+  height: 30px;
+}
+.loginnav .container .row .nav-top .site-action .shop p {
+  margin: 0;
+  width: 21px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fed700;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  top: 16px;
+  right: -4px;
+}
+.loginnav .container .row .nav-top .site-action .shop h2 {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: 6px;
+  right: -56px;
+}
+.loginnav .container .row .nav-bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+}
+.loginnav .container .row .nav-bottom .alldepart {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #fed700;
+  padding: 9px 14px;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.loginnav .container .row .nav-bottom .alldepart .menuss {
+  width: 24px;
+  height: 24px;
+}
+.loginnav .container .row .nav-bottom .alldepart p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #333e48;
+}
+.loginnav .container .row .nav-bottom .login-ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 28px;
+  justify-content: left;
+  padding: 0;
+  margin-top: 18px;
+}
+.loginnav .container .row .nav-bottom .login-ul .home {
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.loginnav .container .row .nav-bottom .login-ul .home .bi-chevron-down {
+  font-size: 13px;
+}
+.loginnav .container .row .nav-bottom .login-ul .catalog {
+  cursor: pointer;
+  position: relative;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.loginnav .container .row .nav-bottom .login-ul .catalog .bi-chevron-down {
+  font-size: 13px;
+}
+.loginnav .container .row .nav-bottom .login-ul .catalog p {
+  background-color: #4cd964;
+  margin: 0;
+  width: 37px;
+  height: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: -11px;
+  right: 0;
+  border-radius: 4px;
+}
+.loginnav .container .row .nav-bottom .login-ul .gift {
+  cursor: pointer;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.loginnav .container .row .nav-bottom .login-ul .gift .bi-chevron-down {
+  font-size: 13px;
+}
+.loginnav .container .row .nav-bottom .login-ul .pages {
+  cursor: pointer;
+  position: relative;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.loginnav .container .row .nav-bottom .login-ul .pages .bi-chevron-down {
+  font-size: 13px;
+}
+.loginnav .container .row .nav-bottom .login-ul .pages p {
+  background-color: #007aff;
+  margin: 0;
+  width: 37px;
+  height: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: -11px;
+  right: -8px;
+  border-radius: 4px;
+}
+.loginnav .container .row .nav-bottom .login-ul .features {
+  cursor: pointer;
+  position: relative;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.loginnav .container .row .nav-bottom .login-ul .features p {
+  background-color: #ff3b30;
+  margin: 0;
+  width: 37px;
+  height: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: -11px;
+  right: -8px;
+  border-radius: 4px;
+}
+.loginnav .container .row .nav-bottom .order {
+  margin-top: 18px;
+}
+.loginnav .container .row .nav-bottom .order p {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+main #banner .breadcrumb {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding-left: 7rem;
+  padding-top: 11px;
+}
+main #banner .breadcrumb h2 a {
+  text-decoration: none;
+  color: #333e48;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  font-weight: 400;
+}
+main #banner .breadcrumb h2 a:hover {
+  color: #fed700;
+}
+main #banner .breadcrumb h2 a .bi-chevron-right {
+  font-size: 12px;
+}
+main #banner .breadcrumb h3 {
+  text-decoration: none;
+  color: #333e48;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main #inner .container .row .login-part {
+  border-right: 1px solid #dddddd;
+  padding-right: 52px;
+}
+main #inner .container .row .login-part h3 {
+  position: relative;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 6px;
+}
+main #inner .container .row .login-part h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+main #inner .container .row .login-part p {
+  padding-top: 17px;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+main #inner .container .row .login-part form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 7px;
+}
+main #inner .container .row .login-part label {
+  color: #333e48;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+main #inner .container .row .login-part .emailaddress {
+  height: 47px;
+  border: 1px solid #dddddd;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 25px;
+  color: #333e48;
+}
+main #inner .container .row .login-part .password {
+  height: 47px;
+  border: 1px solid #dddddd;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 25px;
+  color: #333e48;
+}
+main #inner .container .row .login-part .return-forgotten {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+main #inner .container .row .login-part .return-forgotten span {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+main #inner .container .row .login-part .return-forgotten span:hover {
+  color: #fed700;
+}
+main #inner .container .row .login-part button {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fed700;
+  border: 1px solid #fed700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 14px 10px;
+  font-family: "Inter", sans-serif;
+  width: 134px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+main #inner .container .row .login-part button:hover {
+  background-color: #333e48;
+  color: #fff;
+  border: 1px solid #333e48;
+}
+main #inner .container .row .register-part {
+  padding-left: 28px;
+}
+main #inner .container .row .register-part h3 {
+  position: relative;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 6px;
+}
+main #inner .container .row .register-part h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+main #inner .container .row .register-part p {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding-top: 17px;
+}
+main #inner .container .row .register-part h5 {
+  color: #333e48;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+main #inner .container .row .register-part .reg-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+main #inner .container .row .register-part .reg-item .benefit {
+  padding-top: 13px;
+}
+main #inner .container .row .register-part .reg-item .benefit .benefit1 {
+  display: flex;
+  align-items: center;
+}
+main #inner .container .row .register-part .reg-item .benefit .benefit1 .bi-check {
+  color: #5bb300;
+  font-size: 23px;
+}
+main #inner .container .row .register-part .reg-item .benefit h6 {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+main #inner .container .row .register-part .reg-item h4 a {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fed700;
+  border: 1px solid #fed700;
+  padding: 17px 34px;
+  font-family: "Inter", sans-serif;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+main #inner .container .row .register-part .reg-item h4 a:hover {
+  background-color: #333e48;
+  color: #fff;
+  border: 1px solid #333e48;
+}
+main #shopify {
+  padding-top: 1.5rem;
+}
+main #shopify .container .row .featured p {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 3px;
+}
+main #shopify .container .row .featured p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+main #shopify .container .row .featured .featured1 {
+  display: flex;
+  gap: 17px;
+  padding-top: 26px;
+}
+main #shopify .container .row .featured .featured1 img {
+  width: 104px;
+  height: 102px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+main #shopify .container .row .featured .featured1 .feat-tittle h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0062bd;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+main #shopify .container .row .featured .featured1 .feat-tittle h3:hover {
+  color: #fed700;
+}
+main #shopify .container .row .featured .featured1 .feat-tittle .feat-price {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+main #shopify .container .row .featured .featured1 .feat-tittle .feat-price span {
+  color: #dc3545;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main #shopify .container .row .featured .featured1 .feat-tittle .feat-price del {
+  color: #848484;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main #shopify .container .row .onsale p {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 3px;
+}
+main #shopify .container .row .onsale p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+main #shopify .container .row .onsale .featured1 {
+  display: flex;
+  gap: 17px;
+  padding-top: 26px;
+}
+main #shopify .container .row .onsale .featured1 img {
+  width: 104px;
+  height: 102px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+main #shopify .container .row .onsale .featured1 .feat-tittle h3 {
+  width: 180px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0062bd;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+main #shopify .container .row .onsale .featured1 .feat-tittle h3:hover {
+  color: #fed700;
+}
+main #shopify .container .row .onsale .featured1 .feat-tittle .feat-price {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+main #shopify .container .row .onsale .featured1 .feat-tittle .feat-price span {
+  color: #dc3545;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main #shopify .container .row .onsale .featured1 .feat-tittle .feat-price del {
+  color: #848484;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main #shopify .container .row .toprated p {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 3px;
+}
+main #shopify .container .row .toprated p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+main #shopify .container .row .toprated .featured1 {
+  display: flex;
+  gap: 17px;
+  padding-top: 26px;
+}
+main #shopify .container .row .toprated .featured1 img {
+  width: 104px;
+  height: 102px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+main #shopify .container .row .toprated .featured1 .feat-tittle h3 {
+  width: 180px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0062bd;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+main #shopify .container .row .toprated .featured1 .feat-tittle h3:hover {
+  color: #fed700;
+}
+main #shopify .container .row .toprated .featured1 .feat-tittle .feat-price {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+main #shopify .container .row .toprated .featured1 .feat-tittle .feat-price span {
+  color: #dc3545;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main #shopify .container .row .toprated .featured1 .feat-tittle .feat-price del {
+  color: #848484;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+main #shopify .container .row .smartg3 {
+  width: 340px;
+  height: 360px;
+}
+main #shopify .container .row .smartg3 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
