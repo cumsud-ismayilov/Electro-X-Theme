@@ -7,9 +7,158 @@
   font-family: "Inter", sans-serif;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 4rem 3rem 2rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px !important;
+  height: 65px;
+}
+
+.swiper-wrapper {
+  border-top: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding: 10px 0px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+
+.swiper-button-next {
+  color: #333e48;
+}
+.swiper-button-next::after {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.swiper-button-prev {
+  color: #333e48;
+}
+.swiper-button-prev::after {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 4rem 3rem 2rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px !important;
+  height: 65px;
+}
+
+.swiper-wrapper {
+  border-top: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding: 10px 0px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+
+.swiper-button-next {
+  color: #333e48;
+}
+.swiper-button-next::after {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.swiper-button-prev {
+  color: #333e48;
+}
+.swiper-button-prev::after {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.totop {
+  width: 45px;
+  height: 45px;
+  background: #fed700;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 86px;
+  right: 44px;
+  display: none;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  border-radius: 50%;
+  z-index: 7777;
+}
+.totop svg {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.actice-nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white !important;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    top: -50px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
 .loginheader {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 7px;
+  margin-bottom: 9px;
 }
 .loginheader .container .row .tell {
   display: flex;
@@ -102,9 +251,10 @@
 
 .loginnav .container .row .nav-top {
   display: flex;
-  padding-top: 23px;
+  padding-top: 8px;
   align-items: baseline;
   gap: 49px;
+  padding-bottom: 8px;
 }
 .loginnav .container .row .nav-top .site-logo {
   width: 144px;
@@ -365,14 +515,802 @@
   font-family: "Inter", sans-serif;
 }
 
-main #banner .breadcrumb {
+.registerheader {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 7px;
+  margin-bottom: 9px;
+}
+.registerheader .container .row .tell {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  justify-content: left;
+  border-right: 1px solid #dddddd;
+  width: 191px;
+}
+.registerheader .container .row .tell .fa-phone {
+  color: #fed700;
+  font-size: 13px;
+}
+.registerheader .container .row .tell p {
+  color: #333e48;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.registerheader .container .row .contact-email {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  justify-content: left;
+}
+.registerheader .container .row .contact-email .fa-envelope {
+  color: #fed700;
+  font-size: 13px;
+}
+.registerheader .container .row .contact-email p {
+  color: #333e48;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+.registerheader .container .row .rw-right {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  justify-content: end;
+}
+.registerheader .container .row .rw-right .location {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  justify-content: flex-end;
+  border-right: 1px solid #dddddd;
+  padding-right: 9px;
+}
+.registerheader .container .row .rw-right .location .bi-geo-alt {
+  color: #333e48;
+  font-size: 13px;
+}
+.registerheader .container .row .rw-right .location p {
+  color: #333e48;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  cursor: pointer;
+}
+.registerheader .container .row .rw-right .sign-or-register {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  justify-content: flex-end;
+  border-right: 1px solid #dddddd;
+  padding-right: 9px;
+}
+.registerheader .container .row .rw-right .sign-or-register .bi-person {
+  color: #333e48;
+  font-size: 16px;
+}
+.registerheader .container .row .rw-right .sign-or-register p {
+  margin: 0;
+}
+.registerheader .container .row .rw-right .sign-or-register p a {
+  text-decoration: none;
+  color: #333e48;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  cursor: pointer;
+}
+.registerheader .container .row .rw-right .bi-globe {
+  color: #333e48;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.registernav .container .row .nav-top {
+  display: flex;
+  padding-top: 8px;
+  align-items: baseline;
+  gap: 49px;
+  padding-bottom: 8px;
+}
+.registernav .container .row .nav-top .site-logo {
+  width: 144px;
+  height: 43px;
+}
+.registernav .container .row .nav-top .site-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.registernav .container .row .nav-top .site-search {
+  display: flex;
+  align-items: center;
+}
+.registernav .container .row .nav-top .site-search form .search-site {
+  width: 594px;
+  height: 39px;
+  border-radius: 25px 0px 0px 25px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border: 2px solid #fed700;
+  color: #333e48;
+}
+.registernav .container .row .nav-top .site-search .bi-search {
+  padding: 5px 19px;
+  background-color: #fed700;
+  border-radius: 0px 25px 25px 0px;
+  color: #333;
+  font-size: 19px;
+  cursor: pointer;
+  height: 39px;
+}
+.registernav .container .row .nav-top .site-search .bi-search:hover {
+  background-color: #333e48;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.registernav .container .row .nav-top .site-action {
+  display: flex;
+  align-items: baseline;
+  gap: 54px;
+  justify-content: center;
+}
+.registernav .container .row .nav-top .site-action .compare {
+  position: relative;
+}
+.registernav .container .row .nav-top .site-action .compare .return {
+  width: 30px;
+  height: 30px;
+}
+.registernav .container .row .nav-top .site-action .compare p {
+  margin: 0;
+  width: 21px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fed700;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  top: 16px;
+  right: -4px;
+}
+.registernav .container .row .nav-top .site-action .heart {
+  position: relative;
+}
+.registernav .container .row .nav-top .site-action .heart .heart-icon {
+  width: 30px;
+  height: 30px;
+}
+.registernav .container .row .nav-top .site-action .heart p {
+  margin: 0;
+  width: 21px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fed700;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  top: 16px;
+  right: -4px;
+}
+.registernav .container .row .nav-top .site-action .shop {
+  position: relative;
+}
+.registernav .container .row .nav-top .site-action .shop .card-icon {
+  width: 30px;
+  height: 30px;
+}
+.registernav .container .row .nav-top .site-action .shop p {
+  margin: 0;
+  width: 21px;
+  height: 20px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fed700;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  top: 16px;
+  right: -4px;
+}
+.registernav .container .row .nav-top .site-action .shop h2 {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: 6px;
+  right: -56px;
+}
+.registernav .container .row .nav-bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+}
+.registernav .container .row .nav-bottom .alldepart {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #fed700;
+  padding: 9px 14px;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.registernav .container .row .nav-bottom .alldepart .menuss {
+  width: 24px;
+  height: 24px;
+}
+.registernav .container .row .nav-bottom .alldepart p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #333e48;
+}
+.registernav .container .row .nav-bottom .register-ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 28px;
+  justify-content: left;
+  padding: 0;
+  margin-top: 18px;
+}
+.registernav .container .row .nav-bottom .register-ul .home {
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.registernav .container .row .nav-bottom .register-ul .home .bi-chevron-down {
+  font-size: 13px;
+}
+.registernav .container .row .nav-bottom .register-ul .catalog {
+  cursor: pointer;
+  position: relative;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.registernav .container .row .nav-bottom .register-ul .catalog .bi-chevron-down {
+  font-size: 13px;
+}
+.registernav .container .row .nav-bottom .register-ul .catalog p {
+  background-color: #4cd964;
+  margin: 0;
+  width: 37px;
+  height: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: -11px;
+  right: 0;
+  border-radius: 4px;
+}
+.registernav .container .row .nav-bottom .register-ul .gift {
+  cursor: pointer;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.registernav .container .row .nav-bottom .register-ul .gift .bi-chevron-down {
+  font-size: 13px;
+}
+.registernav .container .row .nav-bottom .register-ul .pages {
+  cursor: pointer;
+  position: relative;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.registernav .container .row .nav-bottom .register-ul .pages .bi-chevron-down {
+  font-size: 13px;
+}
+.registernav .container .row .nav-bottom .register-ul .pages p {
+  background-color: #007aff;
+  margin: 0;
+  width: 37px;
+  height: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: -11px;
+  right: -8px;
+  border-radius: 4px;
+}
+.registernav .container .row .nav-bottom .register-ul .features {
+  cursor: pointer;
+  position: relative;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.registernav .container .row .nav-bottom .register-ul .features p {
+  background-color: #ff3b30;
+  margin: 0;
+  width: 37px;
+  height: 14px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: -11px;
+  right: -8px;
+  border-radius: 4px;
+}
+.registernav .container .row .nav-bottom .order {
+  margin-top: 18px;
+}
+.registernav .container .row .nav-bottom .order p {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+#loginfoot {
+  padding-top: 10px;
+}
+#loginfoot .foot-top {
+  background-color: #fed700;
+}
+#loginfoot .foot-top .container .row .newsletter {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+#loginfoot .foot-top .container .row .newsletter .fa-paper-plane {
+  font-size: 30px;
+}
+#loginfoot .foot-top .container .row .newsletter p {
+  color: #333e48;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+#loginfoot .foot-top .container .row .receive {
+  text-align: center;
+}
+#loginfoot .foot-top .container .row .receive p {
+  color: #333e48;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#loginfoot .foot-top .container .row .receive p span {
+  font-weight: 700;
+}
+#loginfoot .foot-top .container .row .subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#loginfoot .foot-top .container .row .subscribe form .emaiil {
+  border: 1px solid #dddddd;
+  border-radius: 25px 0 0 25px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: #333e48;
+  height: 42px;
+  width: 443px;
+}
+#loginfoot .foot-top .container .row .subscribe button {
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+  border: 1px solid #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding: 10px 15px;
+  height: 42px;
+  background-color: #333e48;
+  color: #fff;
+}
+#loginfoot .foot-mid {
+  padding-top: 3rem;
+}
+#loginfoot .foot-mid .container .row .site-logo {
+  width: 179px;
+  height: 51px;
+}
+#loginfoot .foot-mid .container .row .site-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#loginfoot .foot-mid .container .row .headphone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 26px;
+}
+#loginfoot .foot-mid .container .row .headphone .bi-headset {
+  color: #fed700;
+  font-size: 52px;
+}
+#loginfoot .foot-mid .container .row .headphone .head-tittle p {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+#loginfoot .foot-mid .container .row .headphone .head-tittle h4 {
+  color: #333e48;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+  width: 312px;
+}
+#loginfoot .foot-mid .container .row .contact-info {
+  padding-top: 14px;
+}
+#loginfoot .foot-mid .container .row .contact-info h5 {
+  color: #333e48;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+#loginfoot .foot-mid .container .row .contact-info h3 {
+  color: #333e48;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  font-weight: 400;
+  width: 426px;
+}
+#loginfoot .foot-mid .container .row .contact-icon {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  padding-top: 24px;
+}
+#loginfoot .foot-mid .container .row .contact-icon .fa-facebook-f {
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+}
+#loginfoot .foot-mid .container .row .contact-icon .fa-facebook-f:hover {
+  color: #ff0000;
+}
+#loginfoot .foot-mid .container .row .contact-icon .fa-twitter {
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+}
+#loginfoot .foot-mid .container .row .contact-icon .fa-twitter:hover {
+  color: #ff0000;
+}
+#loginfoot .foot-mid .container .row .contact-icon .fa-pinterest {
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+}
+#loginfoot .foot-mid .container .row .contact-icon .fa-pinterest:hover {
+  color: #ff0000;
+}
+#loginfoot .foot-mid .container .row .contact-icon .fa-square-instagram {
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+}
+#loginfoot .foot-mid .container .row .contact-icon .fa-square-instagram:hover {
+  color: #ff0000;
+}
+#loginfoot .foot-mid .container .row .find-text p {
+  color: #333e48;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+#loginfoot .foot-mid .container .row .find-text .find-ul {
+  padding: 0;
+  list-style: none;
+  padding-top: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+#loginfoot .foot-mid .container .row .find-text .find-ul li {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#loginfoot .foot-mid .container .row .find-text .find-ul li:hover {
+  color: #df3737;
+  font-weight: 700;
+}
+#loginfoot .foot-end {
+  padding: 12px 0 4px 0;
+  background-color: #eaeaea;
+  margin-top: 5rem;
+}
+#loginfoot .foot-end .container .row .reserved p {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+#loginfoot .foot-end .container .row .reserved p span {
+  color: #333e48;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+#loginfoot .foot-end .container .row .payment-img {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#loginfoot .foot-end .container .row .payment-img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  width: 466px;
+  height: 34px;
+}
+
+#registerfoot {
+  padding-top: 10px;
+}
+#registerfoot .foot-top {
+  background-color: #fed700;
+}
+#registerfoot .foot-top .container .row .newsletter {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+#registerfoot .foot-top .container .row .newsletter .fa-paper-plane {
+  font-size: 30px;
+}
+#registerfoot .foot-top .container .row .newsletter p {
+  color: #333e48;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+#registerfoot .foot-top .container .row .receive {
+  text-align: center;
+}
+#registerfoot .foot-top .container .row .receive p {
+  color: #333e48;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#registerfoot .foot-top .container .row .receive p span {
+  font-weight: 700;
+}
+#registerfoot .foot-top .container .row .subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#registerfoot .foot-top .container .row .subscribe form .emaiil {
+  border: 1px solid #dddddd;
+  border-radius: 25px 0 0 25px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: #333e48;
+  height: 42px;
+  width: 443px;
+}
+#registerfoot .foot-top .container .row .subscribe button {
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+  border: 1px solid #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding: 10px 15px;
+  height: 42px;
+  background-color: #333e48;
+  color: #fff;
+}
+#registerfoot .foot-mid {
+  padding-top: 3rem;
+}
+#registerfoot .foot-mid .container .row .site-logo {
+  width: 179px;
+  height: 51px;
+}
+#registerfoot .foot-mid .container .row .site-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#registerfoot .foot-mid .container .row .headphone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 26px;
+}
+#registerfoot .foot-mid .container .row .headphone .bi-headset {
+  color: #fed700;
+  font-size: 52px;
+}
+#registerfoot .foot-mid .container .row .headphone .head-tittle p {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+#registerfoot .foot-mid .container .row .headphone .head-tittle h4 {
+  color: #333e48;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+  width: 312px;
+}
+#registerfoot .foot-mid .container .row .contact-info {
+  padding-top: 14px;
+}
+#registerfoot .foot-mid .container .row .contact-info h5 {
+  color: #333e48;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+#registerfoot .foot-mid .container .row .contact-info h3 {
+  color: #333e48;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  font-weight: 400;
+  width: 426px;
+}
+#registerfoot .foot-mid .container .row .contact-icon {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  padding-top: 24px;
+}
+#registerfoot .foot-mid .container .row .contact-icon .fa-facebook-f {
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+}
+#registerfoot .foot-mid .container .row .contact-icon .fa-facebook-f:hover {
+  color: #ff0000;
+}
+#registerfoot .foot-mid .container .row .contact-icon .fa-twitter {
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+}
+#registerfoot .foot-mid .container .row .contact-icon .fa-twitter:hover {
+  color: #ff0000;
+}
+#registerfoot .foot-mid .container .row .contact-icon .fa-pinterest {
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+}
+#registerfoot .foot-mid .container .row .contact-icon .fa-pinterest:hover {
+  color: #ff0000;
+}
+#registerfoot .foot-mid .container .row .contact-icon .fa-square-instagram {
+  color: #333;
+  font-size: 21px;
+  cursor: pointer;
+}
+#registerfoot .foot-mid .container .row .contact-icon .fa-square-instagram:hover {
+  color: #ff0000;
+}
+#registerfoot .foot-mid .container .row .find-text p {
+  color: #333e48;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+#registerfoot .foot-mid .container .row .find-text .find-ul {
+  padding: 0;
+  list-style: none;
+  padding-top: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+#registerfoot .foot-mid .container .row .find-text .find-ul li {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#registerfoot .foot-mid .container .row .find-text .find-ul li:hover {
+  color: #df3737;
+  font-weight: 700;
+}
+#registerfoot .foot-end {
+  padding: 12px 0 4px 0;
+  background-color: #eaeaea;
+  margin-top: 5rem;
+}
+#registerfoot .foot-end .container .row .reserved p {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+#registerfoot .foot-end .container .row .reserved p span {
+  color: #333e48;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+#registerfoot .foot-end .container .row .payment-img {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#registerfoot .foot-end .container .row .payment-img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  width: 466px;
+  height: 34px;
+}
+
+#loginmain #banner .breadcrumb {
   display: flex;
   align-items: baseline;
   gap: 6px;
   padding-left: 7rem;
   padding-top: 11px;
 }
-main #banner .breadcrumb h2 a {
+#loginmain #banner .breadcrumb h2 a {
   text-decoration: none;
   color: #333e48;
   font-size: 15px;
@@ -380,24 +1318,24 @@ main #banner .breadcrumb h2 a {
   cursor: pointer;
   font-weight: 400;
 }
-main #banner .breadcrumb h2 a:hover {
+#loginmain #banner .breadcrumb h2 a:hover {
   color: #fed700;
 }
-main #banner .breadcrumb h2 a .bi-chevron-right {
+#loginmain #banner .breadcrumb h2 a .bi-chevron-right {
   font-size: 12px;
 }
-main #banner .breadcrumb h3 {
+#loginmain #banner .breadcrumb h3 {
   text-decoration: none;
   color: #333e48;
   font-size: 15px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-main #inner .container .row .login-part {
+#loginmain #inner .container .row .login-part {
   border-right: 1px solid #dddddd;
   padding-right: 52px;
 }
-main #inner .container .row .login-part h3 {
+#loginmain #inner .container .row .login-part h3 {
   position: relative;
   margin: 0;
   font-size: 30px;
@@ -407,7 +1345,7 @@ main #inner .container .row .login-part h3 {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 6px;
 }
-main #inner .container .row .login-part h3::before {
+#loginmain #inner .container .row .login-part h3::before {
   content: "";
   position: absolute;
   left: 0;
@@ -417,26 +1355,26 @@ main #inner .container .row .login-part h3::before {
   height: 2px;
   background-color: #fed700;
 }
-main #inner .container .row .login-part p {
+#loginmain #inner .container .row .login-part p {
   padding-top: 17px;
   color: #333e48;
   font-size: 14px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
 }
-main #inner .container .row .login-part form {
+#loginmain #inner .container .row .login-part form {
   display: flex;
   flex-direction: column;
   gap: 14px;
   padding-top: 7px;
 }
-main #inner .container .row .login-part label {
+#loginmain #inner .container .row .login-part label {
   color: #333e48;
   font-weight: 700;
   font-size: 14px;
   font-family: "Inter", sans-serif;
 }
-main #inner .container .row .login-part .emailaddress {
+#loginmain #inner .container .row .login-part .emailaddress {
   height: 47px;
   border: 1px solid #dddddd;
   padding: 10px 15px;
@@ -445,7 +1383,7 @@ main #inner .container .row .login-part .emailaddress {
   border-radius: 25px;
   color: #333e48;
 }
-main #inner .container .row .login-part .password {
+#loginmain #inner .container .row .login-part .password {
   height: 47px;
   border: 1px solid #dddddd;
   padding: 10px 15px;
@@ -454,13 +1392,13 @@ main #inner .container .row .login-part .password {
   border-radius: 25px;
   color: #333e48;
 }
-main #inner .container .row .login-part .return-forgotten {
+#loginmain #inner .container .row .login-part .return-forgotten {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   padding-top: 7px;
 }
-main #inner .container .row .login-part .return-forgotten span {
+#loginmain #inner .container .row .login-part .return-forgotten span {
   color: #333e48;
   font-size: 14px;
   font-weight: 400;
@@ -468,10 +1406,10 @@ main #inner .container .row .login-part .return-forgotten span {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-main #inner .container .row .login-part .return-forgotten span:hover {
+#loginmain #inner .container .row .login-part .return-forgotten span:hover {
   color: #fed700;
 }
-main #inner .container .row .login-part button {
+#loginmain #inner .container .row .login-part button {
   color: #333e48;
   font-size: 14px;
   font-weight: 600;
@@ -485,15 +1423,15 @@ main #inner .container .row .login-part button {
   border-radius: 25px;
   cursor: pointer;
 }
-main #inner .container .row .login-part button:hover {
+#loginmain #inner .container .row .login-part button:hover {
   background-color: #333e48;
   color: #fff;
   border: 1px solid #333e48;
 }
-main #inner .container .row .register-part {
+#loginmain #inner .container .row .register-part {
   padding-left: 28px;
 }
-main #inner .container .row .register-part h3 {
+#loginmain #inner .container .row .register-part h3 {
   position: relative;
   margin: 0;
   font-size: 30px;
@@ -503,7 +1441,7 @@ main #inner .container .row .register-part h3 {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 6px;
 }
-main #inner .container .row .register-part h3::before {
+#loginmain #inner .container .row .register-part h3::before {
   content: "";
   position: absolute;
   left: 0;
@@ -513,43 +1451,43 @@ main #inner .container .row .register-part h3::before {
   height: 2px;
   background-color: #fed700;
 }
-main #inner .container .row .register-part p {
+#loginmain #inner .container .row .register-part p {
   color: #333e48;
   font-size: 14px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
   padding-top: 17px;
 }
-main #inner .container .row .register-part h5 {
+#loginmain #inner .container .row .register-part h5 {
   color: #333e48;
   font-size: 18px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
 }
-main #inner .container .row .register-part .reg-item {
+#loginmain #inner .container .row .register-part .reg-item {
   display: flex;
   flex-direction: column;
   gap: 23px;
 }
-main #inner .container .row .register-part .reg-item .benefit {
+#loginmain #inner .container .row .register-part .reg-item .benefit {
   padding-top: 13px;
 }
-main #inner .container .row .register-part .reg-item .benefit .benefit1 {
+#loginmain #inner .container .row .register-part .reg-item .benefit .benefit1 {
   display: flex;
   align-items: center;
 }
-main #inner .container .row .register-part .reg-item .benefit .benefit1 .bi-check {
+#loginmain #inner .container .row .register-part .reg-item .benefit .benefit1 .bi-check {
   color: #5bb300;
   font-size: 23px;
 }
-main #inner .container .row .register-part .reg-item .benefit h6 {
+#loginmain #inner .container .row .register-part .reg-item .benefit h6 {
   color: #333e48;
   font-size: 14px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
   margin: 0;
 }
-main #inner .container .row .register-part .reg-item h4 a {
+#loginmain #inner .container .row .register-part .reg-item h4 a {
   color: #333e48;
   font-size: 14px;
   font-weight: 600;
@@ -561,15 +1499,15 @@ main #inner .container .row .register-part .reg-item h4 a {
   cursor: pointer;
   text-decoration: none;
 }
-main #inner .container .row .register-part .reg-item h4 a:hover {
+#loginmain #inner .container .row .register-part .reg-item h4 a:hover {
   background-color: #333e48;
   color: #fff;
   border: 1px solid #333e48;
 }
-main #shopify {
-  padding-top: 1.5rem;
+#loginmain #shopify {
+  padding-top: 4.5rem;
 }
-main #shopify .container .row .featured p {
+#loginmain #shopify .container .row .featured p {
   position: relative;
   margin: 0;
   font-size: 20px;
@@ -579,7 +1517,7 @@ main #shopify .container .row .featured p {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 3px;
 }
-main #shopify .container .row .featured p::before {
+#loginmain #shopify .container .row .featured p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -589,12 +1527,12 @@ main #shopify .container .row .featured p::before {
   height: 2px;
   background-color: #fed700;
 }
-main #shopify .container .row .featured .featured1 {
+#loginmain #shopify .container .row .featured .featured1 {
   display: flex;
   gap: 17px;
   padding-top: 26px;
 }
-main #shopify .container .row .featured .featured1 img {
+#loginmain #shopify .container .row .featured .featured1 img {
   width: 104px;
   height: 102px;
   -o-object-fit: cover;
@@ -603,7 +1541,7 @@ main #shopify .container .row .featured .featured1 img {
      object-position: center;
   cursor: pointer;
 }
-main #shopify .container .row .featured .featured1 .feat-tittle h3 {
+#loginmain #shopify .container .row .featured .featured1 .feat-tittle h3 {
   font-size: 14px;
   font-weight: 700;
   color: #0062bd;
@@ -611,27 +1549,27 @@ main #shopify .container .row .featured .featured1 .feat-tittle h3 {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-main #shopify .container .row .featured .featured1 .feat-tittle h3:hover {
+#loginmain #shopify .container .row .featured .featured1 .feat-tittle h3:hover {
   color: #fed700;
 }
-main #shopify .container .row .featured .featured1 .feat-tittle .feat-price {
+#loginmain #shopify .container .row .featured .featured1 .feat-tittle .feat-price {
   display: flex;
   align-items: baseline;
   gap: 14px;
 }
-main #shopify .container .row .featured .featured1 .feat-tittle .feat-price span {
+#loginmain #shopify .container .row .featured .featured1 .feat-tittle .feat-price span {
   color: #dc3545;
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-main #shopify .container .row .featured .featured1 .feat-tittle .feat-price del {
+#loginmain #shopify .container .row .featured .featured1 .feat-tittle .feat-price del {
   color: #848484;
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-main #shopify .container .row .onsale p {
+#loginmain #shopify .container .row .onsale p {
   position: relative;
   margin: 0;
   font-size: 20px;
@@ -641,7 +1579,7 @@ main #shopify .container .row .onsale p {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 3px;
 }
-main #shopify .container .row .onsale p::before {
+#loginmain #shopify .container .row .onsale p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -651,12 +1589,12 @@ main #shopify .container .row .onsale p::before {
   height: 2px;
   background-color: #fed700;
 }
-main #shopify .container .row .onsale .featured1 {
+#loginmain #shopify .container .row .onsale .featured1 {
   display: flex;
   gap: 17px;
   padding-top: 26px;
 }
-main #shopify .container .row .onsale .featured1 img {
+#loginmain #shopify .container .row .onsale .featured1 img {
   width: 104px;
   height: 102px;
   -o-object-fit: cover;
@@ -665,7 +1603,7 @@ main #shopify .container .row .onsale .featured1 img {
      object-position: center;
   cursor: pointer;
 }
-main #shopify .container .row .onsale .featured1 .feat-tittle h3 {
+#loginmain #shopify .container .row .onsale .featured1 .feat-tittle h3 {
   width: 180px;
   font-size: 14px;
   font-weight: 700;
@@ -674,27 +1612,27 @@ main #shopify .container .row .onsale .featured1 .feat-tittle h3 {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-main #shopify .container .row .onsale .featured1 .feat-tittle h3:hover {
+#loginmain #shopify .container .row .onsale .featured1 .feat-tittle h3:hover {
   color: #fed700;
 }
-main #shopify .container .row .onsale .featured1 .feat-tittle .feat-price {
+#loginmain #shopify .container .row .onsale .featured1 .feat-tittle .feat-price {
   display: flex;
   align-items: baseline;
   gap: 14px;
 }
-main #shopify .container .row .onsale .featured1 .feat-tittle .feat-price span {
+#loginmain #shopify .container .row .onsale .featured1 .feat-tittle .feat-price span {
   color: #dc3545;
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-main #shopify .container .row .onsale .featured1 .feat-tittle .feat-price del {
+#loginmain #shopify .container .row .onsale .featured1 .feat-tittle .feat-price del {
   color: #848484;
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-main #shopify .container .row .toprated p {
+#loginmain #shopify .container .row .toprated p {
   position: relative;
   margin: 0;
   font-size: 20px;
@@ -704,7 +1642,7 @@ main #shopify .container .row .toprated p {
   border-bottom: 1px solid #dddddd;
   padding-bottom: 3px;
 }
-main #shopify .container .row .toprated p::before {
+#loginmain #shopify .container .row .toprated p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -714,12 +1652,12 @@ main #shopify .container .row .toprated p::before {
   height: 2px;
   background-color: #fed700;
 }
-main #shopify .container .row .toprated .featured1 {
+#loginmain #shopify .container .row .toprated .featured1 {
   display: flex;
   gap: 17px;
   padding-top: 26px;
 }
-main #shopify .container .row .toprated .featured1 img {
+#loginmain #shopify .container .row .toprated .featured1 img {
   width: 104px;
   height: 102px;
   -o-object-fit: cover;
@@ -728,7 +1666,7 @@ main #shopify .container .row .toprated .featured1 img {
      object-position: center;
   cursor: pointer;
 }
-main #shopify .container .row .toprated .featured1 .feat-tittle h3 {
+#loginmain #shopify .container .row .toprated .featured1 .feat-tittle h3 {
   width: 180px;
   font-size: 14px;
   font-weight: 700;
@@ -737,35 +1675,442 @@ main #shopify .container .row .toprated .featured1 .feat-tittle h3 {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-main #shopify .container .row .toprated .featured1 .feat-tittle h3:hover {
+#loginmain #shopify .container .row .toprated .featured1 .feat-tittle h3:hover {
   color: #fed700;
 }
-main #shopify .container .row .toprated .featured1 .feat-tittle .feat-price {
+#loginmain #shopify .container .row .toprated .featured1 .feat-tittle .feat-price {
   display: flex;
   align-items: baseline;
   gap: 14px;
 }
-main #shopify .container .row .toprated .featured1 .feat-tittle .feat-price span {
+#loginmain #shopify .container .row .toprated .featured1 .feat-tittle .feat-price span {
   color: #dc3545;
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-main #shopify .container .row .toprated .featured1 .feat-tittle .feat-price del {
+#loginmain #shopify .container .row .toprated .featured1 .feat-tittle .feat-price del {
   color: #848484;
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-main #shopify .container .row .smartg3 {
+#loginmain #shopify .container .row .smartg3 {
   width: 340px;
   height: 360px;
 }
-main #shopify .container .row .smartg3 img {
+#loginmain #shopify .container .row .smartg3 img {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
   width: 100%;
   height: 100%;
+  cursor: pointer;
+}
+
+#registermain #banner .breadcrumb {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding-left: 7rem;
+  padding-top: 11px;
+}
+#registermain #banner .breadcrumb h2 a {
+  text-decoration: none;
+  color: #333e48;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  font-weight: 400;
+}
+#registermain #banner .breadcrumb h2 a:hover {
+  color: #fed700;
+}
+#registermain #banner .breadcrumb h2 a .bi-chevron-right {
+  font-size: 12px;
+}
+#registermain #banner .breadcrumb h3 {
+  text-decoration: none;
+  color: #333e48;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#registermain #inner .container .row .login-part {
+  border-right: 1px solid #dddddd;
+  padding-right: 52px;
+}
+#registermain #inner .container .row .login-part h3 {
+  position: relative;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 6px;
+}
+#registermain #inner .container .row .login-part h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+#registermain #inner .container .row .login-part p {
+  padding-top: 17px;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+#registermain #inner .container .row .login-part form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 7px;
+}
+#registermain #inner .container .row .login-part label {
+  color: #333e48;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+#registermain #inner .container .row .login-part .emailaddress {
+  height: 47px;
+  border: 1px solid #dddddd;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 25px;
+  color: #333e48;
+}
+#registermain #inner .container .row .login-part .password {
+  height: 47px;
+  border: 1px solid #dddddd;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 25px;
+  color: #333e48;
+}
+#registermain #inner .container .row .login-part .return-forgotten {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+#registermain #inner .container .row .login-part .return-forgotten span {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#registermain #inner .container .row .login-part .return-forgotten span:hover {
+  color: #fed700;
+}
+#registermain #inner .container .row .login-part button {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fed700;
+  border: 1px solid #fed700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 14px 10px;
+  font-family: "Inter", sans-serif;
+  width: 134px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#registermain #inner .container .row .login-part button:hover {
+  background-color: #333e48;
+  color: #fff;
+  border: 1px solid #333e48;
+}
+#registermain #inner .container .row .register-part {
+  padding-left: 28px;
+}
+#registermain #inner .container .row .register-part h3 {
+  position: relative;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 6px;
+}
+#registermain #inner .container .row .register-part h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+#registermain #inner .container .row .register-part p {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding-top: 17px;
+}
+#registermain #inner .container .row .register-part h5 {
+  color: #333e48;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+#registermain #inner .container .row .register-part .reg-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+#registermain #inner .container .row .register-part .reg-item .benefit {
+  padding-top: 13px;
+}
+#registermain #inner .container .row .register-part .reg-item .benefit .benefit1 {
+  display: flex;
+  align-items: center;
+}
+#registermain #inner .container .row .register-part .reg-item .benefit .benefit1 .bi-check {
+  color: #5bb300;
+  font-size: 23px;
+}
+#registermain #inner .container .row .register-part .reg-item .benefit h6 {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+#registermain #inner .container .row .register-part .reg-item h4 a {
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fed700;
+  border: 1px solid #fed700;
+  padding: 17px 34px;
+  font-family: "Inter", sans-serif;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#registermain #inner .container .row .register-part .reg-item h4 a:hover {
+  background-color: #333e48;
+  color: #fff;
+  border: 1px solid #333e48;
+}
+#registermain #shopify {
+  padding-top: 4.5rem;
+}
+#registermain #shopify .container .row .featured p {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 3px;
+}
+#registermain #shopify .container .row .featured p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+#registermain #shopify .container .row .featured .featured1 {
+  display: flex;
+  gap: 17px;
+  padding-top: 26px;
+}
+#registermain #shopify .container .row .featured .featured1 img {
+  width: 104px;
+  height: 102px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+#registermain #shopify .container .row .featured .featured1 .feat-tittle h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0062bd;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#registermain #shopify .container .row .featured .featured1 .feat-tittle h3:hover {
+  color: #fed700;
+}
+#registermain #shopify .container .row .featured .featured1 .feat-tittle .feat-price {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+#registermain #shopify .container .row .featured .featured1 .feat-tittle .feat-price span {
+  color: #dc3545;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#registermain #shopify .container .row .featured .featured1 .feat-tittle .feat-price del {
+  color: #848484;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#registermain #shopify .container .row .onsale p {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 3px;
+}
+#registermain #shopify .container .row .onsale p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+#registermain #shopify .container .row .onsale .featured1 {
+  display: flex;
+  gap: 17px;
+  padding-top: 26px;
+}
+#registermain #shopify .container .row .onsale .featured1 img {
+  width: 104px;
+  height: 102px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+#registermain #shopify .container .row .onsale .featured1 .feat-tittle h3 {
+  width: 180px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0062bd;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#registermain #shopify .container .row .onsale .featured1 .feat-tittle h3:hover {
+  color: #fed700;
+}
+#registermain #shopify .container .row .onsale .featured1 .feat-tittle .feat-price {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+#registermain #shopify .container .row .onsale .featured1 .feat-tittle .feat-price span {
+  color: #dc3545;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#registermain #shopify .container .row .onsale .featured1 .feat-tittle .feat-price del {
+  color: #848484;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#registermain #shopify .container .row .toprated p {
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #333;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 3px;
+}
+#registermain #shopify .container .row .toprated p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 115px;
+  height: 2px;
+  background-color: #fed700;
+}
+#registermain #shopify .container .row .toprated .featured1 {
+  display: flex;
+  gap: 17px;
+  padding-top: 26px;
+}
+#registermain #shopify .container .row .toprated .featured1 img {
+  width: 104px;
+  height: 102px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+}
+#registermain #shopify .container .row .toprated .featured1 .feat-tittle h3 {
+  width: 180px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0062bd;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#registermain #shopify .container .row .toprated .featured1 .feat-tittle h3:hover {
+  color: #fed700;
+}
+#registermain #shopify .container .row .toprated .featured1 .feat-tittle .feat-price {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+#registermain #shopify .container .row .toprated .featured1 .feat-tittle .feat-price span {
+  color: #dc3545;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#registermain #shopify .container .row .toprated .featured1 .feat-tittle .feat-price del {
+  color: #848484;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+#registermain #shopify .container .row .smartg3 {
+  width: 340px;
+  height: 360px;
+}
+#registermain #shopify .container .row .smartg3 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

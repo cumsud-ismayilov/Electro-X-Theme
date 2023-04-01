@@ -1,4 +1,4 @@
-main {
+#loginmain {
     #banner {
         .breadcrumb {
             display: flex;
@@ -244,7 +244,7 @@ main {
     }
 
     #shopify {
-        padding-top: 1.5rem;
+        padding-top: 4.5rem;
         .container {
             .row {
                 .featured {
@@ -470,6 +470,7 @@ main {
                         object-position: center;
                         width: 100%;
                         height: 100%;
+                        cursor: pointer;
                     }
                 }
             }

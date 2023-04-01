@@ -6,3 +6,154 @@
     outline: none;
     font-family: 'Inter', sans-serif;
 }
+
+// login slide star
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 3rem 2rem;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px !important;
+    height: 65px;
+  }
+
+  .swiper-wrapper{
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 10px 0px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+  }
+  .swiper-button-next{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+  .swiper-button-prev{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+
+// login slide end
+// register slide star
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 3rem 2rem;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px !important;
+    height: 65px;
+  }
+
+  .swiper-wrapper{
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 10px 0px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+  }
+  .swiper-button-next{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+  .swiper-button-prev{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+
+// register slide end
+
+//Totop scss code star
+.totop{
+  width: 45px;
+    height: 45px;
+  background: #fed700;
+  color: #333;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 86px;
+    right: 44px;
+  display: none;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  border-radius: 50%;
+  z-index: 7777;
+ 
+  svg{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+//Totop scss code end
+
+// Navbar scrool scss code strat
+.actice-nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:white !important;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    top: -50px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+// Navbar scrool scss code end

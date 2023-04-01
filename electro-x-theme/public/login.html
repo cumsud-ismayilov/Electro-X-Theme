@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+      />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="icon" type="image/png"
         href="https://cdn.shopify.com/s/files/1/0265/3493/6627/files/favicon.png?crop=center&height=128&v=1653273939&width=128">
     <link rel="stylesheet" href="../src/scss/style.css">
@@ -15,6 +19,12 @@
 </head>
 
 <body>
+    <div class="totop">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+          </svg>
+          
+    </div>
     <header class="loginheader">
         <div class="container">
             <div class="row">
@@ -132,7 +142,7 @@
             </div>
         </div>
     </nav>
-    <main>
+    <main id="loginmain">
         <section id="banner">
             <div class="breadcrumb">
                 <h2><a href="../public/home.html">Home <i class="bi bi-chevron-right"></i></a></h2>
@@ -302,7 +312,162 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/files/themeforest1.png?v=1649837305&width=200" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="	https://cdn.shopify.com/s/files/1/0265/3493/6627/files/themeforest2.png?v=1649837316&width=200" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="	https://cdn.shopify.com/s/files/1/0265/3493/6627/files/themeforest3.png?v=1649837326&width=200" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="	https://cdn.shopify.com/s/files/1/0265/3493/6627/files/themeforest4.png?v=1649837336&width=200" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/files/themeforest5.png?v=1649837344&width=200" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="	https://cdn.shopify.com/s/files/1/0265/3493/6627/files/themeforest6.png?v=1649837364&width=200" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/files/themeforest2.png?v=1649837316&width=200" alt="">
+                  </div>
+                  
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+               
+              </div>
+        </section>
     </main>
+    <footer id="loginfoot">
+        <div class="foot-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 g-3">
+                        <div class="newsletter">
+                            <i class="fa-regular fa-paper-plane"></i>
+                            <p>Sign up to Newsletter</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 g-3">
+                        <div class="receive">
+                            <p>...and receive <span>$20 coupon for first shopping</span></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 g-2">
+                        <div class="subscribe">
+                            <form>
+                                <input type="text" name="emails" id="emails" class="emaiil" placeholder="Enter your email">
+                            </form>
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-mid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="site-logo">
+                            <img src="../src/images/Screenshot 2023-03-31 002425.png" alt="">
+                        </div>
+                        <div class="headphone">
+                            <i class="bi bi-headset"></i>
+                            <div class="head-tittle">
+                                <p>Got questions? Call us 24/7!</p>
+                                <h4>(800) 8001-8588, (0600) 874 548</h4>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <h5>Contact info</h5>
+                            <h3>17 Princess Road, London, Greater London NW1 8JR, UK</h3>
+                        </div>
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="find-text">
+                            <p>Find In Fast</p>
+                            <ul class="find-ul">
+                                <li>Accessories </li>
+                                <li>Gaming </li>
+                                <li>Laptops & Computer </li>
+                                <li>Mac Computers </li>
+                                <li>PC Computers </li>
+                                <li>Ultrabooks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="find-text">
+                            <p>Information</p>
+                            <ul class="find-ul">
+                                <li> About Us  </li>
+                                <li> Contact Us  </li>
+                                <li> All Collections  </li>
+                                <li> Privacy policy  </li>
+                                <li>Terms & Conditions  </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="find-text">
+                            <p>Customer Care</p>
+                            <ul class="find-ul">
+                                <li>Contact Us </li>
+                                <li>Wishlist </li>
+                                <li> Shopping Cart </li>
+                                <li>Shipping & Return </li>
+                                <li> FAQs  </li>
+                                <li> About Us </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="find-text">
+                            <p>In the Spotlight</p>
+                            <ul class="find-ul">
+                                <li>Electronics </li>
+                                <li>Toys </li>
+                                <li>Video Games </li>
+                                <li>Home Products</li>
+                                <li>Clothing </li>
+                                <li>Sports & Outdoors</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-end">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="reserved">
+                            <p>© 2023 <span>Electro X - Electro 10 Shopify Theme</span>. All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="payment-img">
+                            <img src="../src/images/Screenshot 2023-04-01 072432.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="../src/js/login.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -310,6 +475,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
         integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
         crossorigin="anonymous"></script>
+        
     <script src="https://kit.fontawesome.com/e6c541483e.js" crossorigin="anonymous"></script>
 </body>
 
