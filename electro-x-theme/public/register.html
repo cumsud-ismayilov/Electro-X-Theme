@@ -92,16 +92,17 @@
 
                                 <p>0</p>
                             </div>
-                            <div class="shop">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 card-icon">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                                </svg>
-
+                            <i class="bi bi-bag shopcart">
                                 <p>0</p>
-                                <h2>$0.00</h2>
-                            </div>
+                               <h1>€0,00</h1>
+                               <div class="shopclick shplist">
+                                <div class="mycart">
+                                    <i class="bi bi-x"></i>
+                                    <h6>My Cart</h6>
+                                </div>
+                                <h4>Your cart is empty</h4>
+                                </div>
+                            </i>
                         </div>
                     </div>
                 </div>
@@ -152,43 +153,45 @@
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="login-part">
-                            <h3>Login</h3>
-                            <p>Welcome back! Sign in to your account</p>
+                            <h3>Create New Account</h3>
+                            <p>Create your own Account</p>
                             <form>
+                                <label>First Name*</label>
+                                <input type="text" name="firstname" class="firstname" required>
+                                <label>Last Name*</label>
+                                <input type="text" name="lastname" class="lastname">
                                 <label>Email Address*</label>
-                                <input type="text" name="text" required class="emailaddress">
+                                <input type="text" name="text" class="emailaddress">
                                 <label>Password*</label>
                                 <input type="password" name="password" class="password">
-                                <div class="return-forgotten">
-                                    <span>Return to Store</span>
-                                    <span>Forgotten Password?</span>
-                                </div>
-                                <button type="submit">Login</button>
+                                
+                                <button type="submit">Register</button>
                             </form>
+                            <div class="reg-item">
+                                <div class="benefit">
+                                    <div class="benefit1">
+                                        <i class="bi bi-check"></i>
+                                        <h6>Speed your way through the checkout</h6>
+                                    </div>
+                                    <div class="benefit1">
+                                        <i class="bi bi-check"></i>
+                                        <h6>Track your orders easily</h6>
+                                    </div>
+                                    <div class="benefit1">
+                                        <i class="bi bi-check"></i>
+                                        <h6>Keep a record of all your purchases</h6>
+                                    </div>
+                                </div>
+                                
+                               </div>
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <div class="register-part">
-                            <h3>Create New Account</h3>
-                            <p>Create your own Account</p>
-                            <h5>Sign up today and you'll be able to :</h5>
-                           <div class="reg-item">
-                            <div class="benefit">
-                                <div class="benefit1">
-                                    <i class="bi bi-check"></i>
-                                    <h6>Speed your way through the checkout</h6>
-                                </div>
-                                <div class="benefit1">
-                                    <i class="bi bi-check"></i>
-                                    <h6>Track your orders easily</h6>
-                                </div>
-                                <div class="benefit1">
-                                    <i class="bi bi-check"></i>
-                                    <h6>Keep a record of all your purchases</h6>
-                                </div>
-                            </div>
-                            <h4><a href="../public/register.html">Register</a></h4>
-                           </div>
+                            <h3>Login</h3>
+                            <p>Welcome back! Have an account</p>
+                            
+                            <h4><a href="../public/login.html">Login</a></h4>
                         </div>
                     </div>
                 </div>
@@ -466,7 +469,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="../src/js/login.js"></script>
+    <script src="../src/js/register.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>

@@ -62,3 +62,14 @@ window.addEventListener("scroll", () => {
   }
 });
 // Navbar scrool code js end
+
+const MenuOpen = document.querySelector(".shopcart");
+const OpenList = document.querySelector(".shplist");
+
+if (MenuOpen) {
+    MenuOpen.addEventListener("click",()=>{
+        console.log("salam");
+        OpenList.classList.toggle("shopactive")
+    
+  })
+}

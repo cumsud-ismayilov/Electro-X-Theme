@@ -76,56 +76,86 @@
                     form {
                         display: flex;
                         flex-direction: column;
-                        gap: 14px;
+                        gap: 12px;
                         padding-top: 7px;
-                    }
-
-                    label {
-                        color: #333e48;
-                        font-weight: 700;
-                        font-size: 14px;
-                        font-family: 'Inter', sans-serif;
-                    }
-
-                    .emailaddress {
-                        height: 47px;
-                        border: 1px solid #dddddd;
-                        padding: 10px 15px;
-                        font-size: 14px;
-                        font-weight: 400;
-                        border-radius: 25px;
-                        color: #333e48;
-                    }
-
-                    .password {
-                        height: 47px;
-                        border: 1px solid #dddddd;
-                        padding: 10px 15px;
-                        font-size: 14px;
-                        font-weight: 400;
-                        border-radius: 25px;
-                        color: #333e48;
-                    }
-
-                    .return-forgotten {
-                        display: flex;
-                        align-items: baseline;
-                        justify-content: space-between;
-                        padding-top: 7px;
-
-                        span {
+                        label {
                             color: #333e48;
+                            font-weight: 700;
+                            font-size: 14px;
+                            font-family: 'Inter', sans-serif;
+                        }
+    
+                        .emailaddress {
+                            height: 47px;
+                            border: 1px solid #dddddd;
+                            padding: 10px 15px;
                             font-size: 14px;
                             font-weight: 400;
-                            font-family: "Inter", sans-serif;
-                            cursor: pointer;
-                            transition: .3s ease-in-out;
-
-                            &:hover {
-                                color: #fed700;
-                            }
+                            border-radius: 25px;
+                            color: #333e48;
+                        }
+    
+                        .password {
+                            height: 47px;
+                            border: 1px solid #dddddd;
+                            padding: 10px 15px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            border-radius: 25px;
+                            color: #333e48;
+                        }
+                        .firstname {
+                            height: 47px;
+                            border: 1px solid #dddddd;
+                            padding: 10px 15px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            border-radius: 25px;
+                            color: #333e48;
+                        }
+                        .lastname {
+                            height: 47px;
+                            border: 1px solid #dddddd;
+                            padding: 10px 15px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            border-radius: 25px;
+                            color: #333e48;
                         }
                     }
+
+                    
+                    .reg-item {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 23px;
+
+                        .benefit {
+                            padding-top: 13px;
+
+                            .benefit1 {
+                                display: flex;
+                                align-items: center;
+
+                                .bi-check {
+                                    color: #5bb300;
+                                    font-size: 23px;
+                                }
+                            }
+
+                            h6 {
+                                color: #333e48;
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: "Inter", sans-serif;
+                                margin: 0;
+                            }
+                        }
+
+                        
+                    }
+
+                    
 
                     button {
                         color: #333e48;
@@ -188,55 +218,29 @@
                         font-weight: 400;
                         font-family: "Inter", sans-serif;
                     }
+                    h4 {
+                        padding-top: 16px;
+                        a {
+                            color: #333e48;
+                            font-size: 14px;
+                            font-weight: 600;
+                            background-color: #fed700;
+                            border: 1px solid #fed700;
+                            padding: 17px 40px;
+                            font-family: 'Inter', sans-serif;
+                            border-radius: 25px;
+                            cursor: pointer;
+                            text-decoration: none;
 
-                    .reg-item {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 23px;
-
-                        .benefit {
-                            padding-top: 13px;
-
-                            .benefit1 {
-                                display: flex;
-                                align-items: center;
-
-                                .bi-check {
-                                    color: #5bb300;
-                                    font-size: 23px;
-                                }
-                            }
-
-                            h6 {
-                                color: #333e48;
-                                font-size: 14px;
-                                font-weight: 400;
-                                font-family: "Inter", sans-serif;
-                                margin: 0;
-                            }
-                        }
-
-                        h4 {
-                            a {
-                                color: #333e48;
-                                font-size: 14px;
-                                font-weight: 600;
-                                background-color: #fed700;
-                                border: 1px solid #fed700;
-                                padding: 17px 34px;
-                                font-family: 'Inter', sans-serif;
-                                border-radius: 25px;
-                                cursor: pointer;
-                                text-decoration: none;
-
-                                &:hover {
-                                    background-color: #333e48;
-                                    color: #fff;
-                                    border: 1px solid #333e48;
-                                }
+                            &:hover {
+                                background-color: #333e48;
+                                color: #fff;
+                                border: 1px solid #333e48;
                             }
                         }
                     }
+
+                   
                 }
             }
         }

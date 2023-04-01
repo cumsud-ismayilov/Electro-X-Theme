@@ -2,6 +2,7 @@
     border-bottom: 1px solid #dddddd;
     padding-bottom: 7px;
     margin-bottom: 9px;
+
     .container {
         .row {
             .tell {
@@ -265,6 +266,7 @@
                 display: flex;
                 align-items: center;
                 padding-top: 12px;
+
                 .alldepart {
                     display: flex;
                     align-items: center;
@@ -321,7 +323,8 @@
                         .bi-chevron-down {
                             font-size: 13px;
                         }
-                        p{
+
+                        p {
                             background-color: #4cd964;
                             margin: 0;
                             width: 37px;
@@ -360,7 +363,8 @@
                         .bi-chevron-down {
                             font-size: 13px;
                         }
-                        p{
+
+                        p {
                             background-color: #007aff;
                             margin: 0;
                             width: 37px;
@@ -383,7 +387,8 @@
                         font-size: 14px;
                         font-weight: 700;
                         font-family: 'Inter', sans-serif;
-                        p{
+
+                        p {
                             background-color: #ff3b30;
                             margin: 0;
                             width: 37px;
@@ -399,9 +404,11 @@
                         }
                     }
                 }
-                .order{
+
+                .order {
                     margin-top: 18px;
-                    p{
+
+                    p {
                         color: #333e48;
                         font-size: 14px;
                         font-weight: 700;
@@ -418,6 +425,7 @@
     border-bottom: 1px solid #dddddd;
     padding-bottom: 7px;
     margin-bottom: 9px;
+
     .container {
         .row {
             .tell {
@@ -526,6 +534,7 @@
         }
     }
 }
+
 // Register header code end
 
 // Register nav code start
@@ -642,18 +651,13 @@
                             right: -4px;
                         }
                     }
-
-                    .shop {
+               
+                     .bi-bag{
+                        font-size: 25px;
                         position: relative;
-
-                        .card-icon {
-                            width: 30px;
-                            height: 30px;
-                        }
-
-                        p {
+                        p{
                             margin: 0;
-                            width: 21px;
+                            width: 20px;
                             height: 20px;
                             font-size: 13px;
                             display: flex;
@@ -666,16 +670,64 @@
                             top: 16px;
                             right: -4px;
                         }
-
-                        h2 {
-                            font-size: 17px;
-                            font-weight: 600;
+                         h1{
                             font-family: 'Inter', sans-serif;
+                            color: #333e48;
+                            font-size: 14px;
+                            font-weight: 700;
                             position: absolute;
-                            top: 6px;
-                            right: -56px;
+                            top: 11px;
+                            right: -50px;
                         }
-                    }
+                        .shopclick {
+                            transform: translateX(325px);
+                            position: absolute;
+                            top: -63px;
+                            left: -151px;
+                            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+                            background-color: #fff;
+                            width: 312px;
+                           
+                            z-index: 9999;
+                             height: 0;
+                        
+                            .mycart {
+                                display: flex;
+                                background-color: #fed700;
+                                align-items: end;
+                                gap: 70px;
+                                padding-left: 14px;
+                        
+                                .bi-x {
+                                    color: #333;
+                                    font-size: 23px;
+                                }
+                        
+                                h6 {
+                                    color: #333e48;
+                                    text-transform: uppercase;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                }
+                            }
+                        
+                            h4 {
+                                margin-top: 20px;
+                                font-size: 14px;
+                                font-weight: 400;
+                                text-align: center;
+                                color: #333e48;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                        .shopactive{
+                            transform: translateX(0px);
+                            height: 751px;
+                        }
+                        }
+                     }
+                   
                 }
             }
 
@@ -683,6 +735,7 @@
                 display: flex;
                 align-items: center;
                 padding-top: 12px;
+
                 .alldepart {
                     display: flex;
                     align-items: center;
@@ -739,7 +792,8 @@
                         .bi-chevron-down {
                             font-size: 13px;
                         }
-                        p{
+
+                        p {
                             background-color: #4cd964;
                             margin: 0;
                             width: 37px;
@@ -778,7 +832,8 @@
                         .bi-chevron-down {
                             font-size: 13px;
                         }
-                        p{
+
+                        p {
                             background-color: #007aff;
                             margin: 0;
                             width: 37px;
@@ -801,7 +856,8 @@
                         font-size: 14px;
                         font-weight: 700;
                         font-family: 'Inter', sans-serif;
-                        p{
+
+                        p {
                             background-color: #ff3b30;
                             margin: 0;
                             width: 37px;
@@ -817,9 +873,11 @@
                         }
                     }
                 }
-                .order{
+
+                .order {
                     margin-top: 18px;
-                    p{
+
+                    p {
                         color: #333e48;
                         font-size: 14px;
                         font-weight: 700;
@@ -829,5 +887,6 @@
             }
         }
     }
-}
+
+
 // Register nav code end

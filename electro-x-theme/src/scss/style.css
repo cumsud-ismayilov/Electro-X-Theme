@@ -708,16 +708,13 @@
   top: 16px;
   right: -4px;
 }
-.registernav .container .row .nav-top .site-action .shop {
+.registernav .container .row .nav-top .site-action .bi-bag {
+  font-size: 25px;
   position: relative;
 }
-.registernav .container .row .nav-top .site-action .shop .card-icon {
-  width: 30px;
-  height: 30px;
-}
-.registernav .container .row .nav-top .site-action .shop p {
+.registernav .container .row .nav-top .site-action .bi-bag p {
   margin: 0;
-  width: 21px;
+  width: 20px;
   height: 20px;
   font-size: 13px;
   display: flex;
@@ -730,20 +727,62 @@
   top: 16px;
   right: -4px;
 }
-.registernav .container .row .nav-top .site-action .shop h2 {
-  font-size: 17px;
-  font-weight: 600;
+.registernav .container .row .nav-top .site-action .bi-bag h1 {
   font-family: "Inter", sans-serif;
+  color: #333e48;
+  font-size: 14px;
+  font-weight: 700;
   position: absolute;
-  top: 6px;
-  right: -56px;
+  top: 11px;
+  right: -50px;
 }
-.registernav .container .row .nav-bottom {
+.registernav .container .row .nav-top .site-action .bi-bag .shopclick {
+  transform: translateX(325px);
+  position: absolute;
+  top: -63px;
+  left: -151px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  width: 312px;
+  z-index: 9999;
+  height: 0;
+}
+.registernav .container .row .nav-top .site-action .bi-bag .shopclick .mycart {
+  display: flex;
+  background-color: #fed700;
+  align-items: end;
+  gap: 70px;
+  padding-left: 14px;
+}
+.registernav .container .row .nav-top .site-action .bi-bag .shopclick .mycart .bi-x {
+  color: #333;
+  font-size: 23px;
+}
+.registernav .container .row .nav-top .site-action .bi-bag .shopclick .mycart h6 {
+  color: #333e48;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.registernav .container .row .nav-top .site-action .bi-bag .shopclick h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #333e48;
+  font-family: "Inter", sans-serif;
+}
+.registernav .container .row .nav-top .site-action .bi-bag .shopactive {
+  transform: translateX(0px);
+  height: 751px;
+}
+.registernav .container .nav-bottom {
   display: flex;
   align-items: center;
   padding-top: 12px;
 }
-.registernav .container .row .nav-bottom .alldepart {
+.registernav .container .nav-bottom .alldepart {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -753,18 +792,18 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.registernav .container .row .nav-bottom .alldepart .menuss {
+.registernav .container .nav-bottom .alldepart .menuss {
   width: 24px;
   height: 24px;
 }
-.registernav .container .row .nav-bottom .alldepart p {
+.registernav .container .nav-bottom .alldepart p {
   margin: 0;
   font-size: 14px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   color: #333e48;
 }
-.registernav .container .row .nav-bottom .register-ul {
+.registernav .container .nav-bottom .register-ul {
   list-style: none;
   display: flex;
   align-items: baseline;
@@ -773,17 +812,17 @@
   padding: 0;
   margin-top: 18px;
 }
-.registernav .container .row .nav-bottom .register-ul .home {
+.registernav .container .nav-bottom .register-ul .home {
   cursor: pointer;
   color: #dc3545;
   font-size: 14px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
-.registernav .container .row .nav-bottom .register-ul .home .bi-chevron-down {
+.registernav .container .nav-bottom .register-ul .home .bi-chevron-down {
   font-size: 13px;
 }
-.registernav .container .row .nav-bottom .register-ul .catalog {
+.registernav .container .nav-bottom .register-ul .catalog {
   cursor: pointer;
   position: relative;
   color: #333e48;
@@ -791,10 +830,10 @@
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
-.registernav .container .row .nav-bottom .register-ul .catalog .bi-chevron-down {
+.registernav .container .nav-bottom .register-ul .catalog .bi-chevron-down {
   font-size: 13px;
 }
-.registernav .container .row .nav-bottom .register-ul .catalog p {
+.registernav .container .nav-bottom .register-ul .catalog p {
   background-color: #4cd964;
   margin: 0;
   width: 37px;
@@ -808,17 +847,17 @@
   right: 0;
   border-radius: 4px;
 }
-.registernav .container .row .nav-bottom .register-ul .gift {
+.registernav .container .nav-bottom .register-ul .gift {
   cursor: pointer;
   color: #333e48;
   font-size: 14px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
-.registernav .container .row .nav-bottom .register-ul .gift .bi-chevron-down {
+.registernav .container .nav-bottom .register-ul .gift .bi-chevron-down {
   font-size: 13px;
 }
-.registernav .container .row .nav-bottom .register-ul .pages {
+.registernav .container .nav-bottom .register-ul .pages {
   cursor: pointer;
   position: relative;
   color: #333e48;
@@ -826,10 +865,10 @@
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
-.registernav .container .row .nav-bottom .register-ul .pages .bi-chevron-down {
+.registernav .container .nav-bottom .register-ul .pages .bi-chevron-down {
   font-size: 13px;
 }
-.registernav .container .row .nav-bottom .register-ul .pages p {
+.registernav .container .nav-bottom .register-ul .pages p {
   background-color: #007aff;
   margin: 0;
   width: 37px;
@@ -843,7 +882,7 @@
   right: -8px;
   border-radius: 4px;
 }
-.registernav .container .row .nav-bottom .register-ul .features {
+.registernav .container .nav-bottom .register-ul .features {
   cursor: pointer;
   position: relative;
   color: #333e48;
@@ -851,7 +890,7 @@
   font-weight: 700;
   font-family: "Inter", sans-serif;
 }
-.registernav .container .row .nav-bottom .register-ul .features p {
+.registernav .container .nav-bottom .register-ul .features p {
   background-color: #ff3b30;
   margin: 0;
   width: 37px;
@@ -865,10 +904,10 @@
   right: -8px;
   border-radius: 4px;
 }
-.registernav .container .row .nav-bottom .order {
+.registernav .container .nav-bottom .order {
   margin-top: 18px;
 }
-.registernav .container .row .nav-bottom .order p {
+.registernav .container .nav-bottom .order p {
   color: #333e48;
   font-size: 14px;
   font-weight: 700;
@@ -1771,16 +1810,16 @@
 #registermain #inner .container .row .login-part form {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
   padding-top: 7px;
 }
-#registermain #inner .container .row .login-part label {
+#registermain #inner .container .row .login-part form label {
   color: #333e48;
   font-weight: 700;
   font-size: 14px;
   font-family: "Inter", sans-serif;
 }
-#registermain #inner .container .row .login-part .emailaddress {
+#registermain #inner .container .row .login-part form .emailaddress {
   height: 47px;
   border: 1px solid #dddddd;
   padding: 10px 15px;
@@ -1789,7 +1828,7 @@
   border-radius: 25px;
   color: #333e48;
 }
-#registermain #inner .container .row .login-part .password {
+#registermain #inner .container .row .login-part form .password {
   height: 47px;
   border: 1px solid #dddddd;
   padding: 10px 15px;
@@ -1798,22 +1837,46 @@
   border-radius: 25px;
   color: #333e48;
 }
-#registermain #inner .container .row .login-part .return-forgotten {
+#registermain #inner .container .row .login-part form .firstname {
+  height: 47px;
+  border: 1px solid #dddddd;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 25px;
+  color: #333e48;
+}
+#registermain #inner .container .row .login-part form .lastname {
+  height: 47px;
+  border: 1px solid #dddddd;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 25px;
+  color: #333e48;
+}
+#registermain #inner .container .row .login-part .reg-item {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  padding-top: 7px;
+  flex-direction: column;
+  gap: 23px;
 }
-#registermain #inner .container .row .login-part .return-forgotten span {
+#registermain #inner .container .row .login-part .reg-item .benefit {
+  padding-top: 13px;
+}
+#registermain #inner .container .row .login-part .reg-item .benefit .benefit1 {
+  display: flex;
+  align-items: center;
+}
+#registermain #inner .container .row .login-part .reg-item .benefit .benefit1 .bi-check {
+  color: #5bb300;
+  font-size: 23px;
+}
+#registermain #inner .container .row .login-part .reg-item .benefit h6 {
   color: #333e48;
   font-size: 14px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-#registermain #inner .container .row .login-part .return-forgotten span:hover {
-  color: #fed700;
+  margin: 0;
 }
 #registermain #inner .container .row .login-part button {
   color: #333e48;
@@ -1870,42 +1933,22 @@
   font-weight: 400;
   font-family: "Inter", sans-serif;
 }
-#registermain #inner .container .row .register-part .reg-item {
-  display: flex;
-  flex-direction: column;
-  gap: 23px;
+#registermain #inner .container .row .register-part h4 {
+  padding-top: 16px;
 }
-#registermain #inner .container .row .register-part .reg-item .benefit {
-  padding-top: 13px;
-}
-#registermain #inner .container .row .register-part .reg-item .benefit .benefit1 {
-  display: flex;
-  align-items: center;
-}
-#registermain #inner .container .row .register-part .reg-item .benefit .benefit1 .bi-check {
-  color: #5bb300;
-  font-size: 23px;
-}
-#registermain #inner .container .row .register-part .reg-item .benefit h6 {
-  color: #333e48;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Inter", sans-serif;
-  margin: 0;
-}
-#registermain #inner .container .row .register-part .reg-item h4 a {
+#registermain #inner .container .row .register-part h4 a {
   color: #333e48;
   font-size: 14px;
   font-weight: 600;
   background-color: #fed700;
   border: 1px solid #fed700;
-  padding: 17px 34px;
+  padding: 17px 40px;
   font-family: "Inter", sans-serif;
   border-radius: 25px;
   cursor: pointer;
   text-decoration: none;
 }
-#registermain #inner .container .row .register-part .reg-item h4 a:hover {
+#registermain #inner .container .row .register-part h4 a:hover {
   background-color: #333e48;
   color: #fff;
   border: 1px solid #333e48;
