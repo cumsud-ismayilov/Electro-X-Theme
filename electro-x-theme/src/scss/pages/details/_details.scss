@@ -1,0 +1,290 @@
+#detailmain{
+    #banner {
+        .breadcrumb {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+            padding-left: 7rem;
+            padding-top: 11px;
+
+            h2 {
+                a {
+                    text-decoration: none;
+                    color: #333e48;
+                    font-size: 15px;
+                    font-family: 'Inter', sans-serif;
+                    cursor: pointer;
+                    font-weight: 400;
+
+                    &:hover {
+                        color: #fed700;
+                    }
+
+                    .bi-chevron-right {
+                        font-size: 12px;
+                    }
+                }
+            }
+            h4 {
+                a {
+                    text-decoration: none;
+                    color: #333e48;
+                    font-size: 15px;
+                    font-family: 'Inter', sans-serif;
+                    cursor: pointer;
+                    font-weight: 400;
+
+                    &:hover {
+                        color: #fed700;
+                    }
+
+                    .bi-chevron-right {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            h3 {
+                text-decoration: none;
+                color: #333e48;
+                font-size: 15px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 400;
+            }
+        }
+       
+    }
+    #shopify {
+        padding-top: 4.5rem;
+        .container {
+            .row {
+                .featured {
+                    p {
+                        position: relative;
+                        margin: 0;
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-family: "Inter", sans-serif;
+                        color: #333;
+                        border-bottom: 1px solid #dddddd;
+                        padding-bottom: 3px;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: -1px;
+                            width: 115px;
+                            height: 2px;
+                            background-color: #fed700;
+                        }
+                    }
+
+                    .featured1 {
+                        display: flex;
+                        gap: 17px;
+                        padding-top: 26px;
+
+                        img {
+                            width: 104px;
+                            height: 102px;
+                            object-fit: cover;
+                            object-position: center;
+                            cursor: pointer;
+                        }
+
+                        .feat-tittle {
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 700;
+                                color: #0062bd;
+                                font-family: 'Inter', sans-serif;
+                                cursor: pointer;
+                                transition: .3s ease-in-out;
+                                &:hover{
+                                    color: #fed700;
+                                }
+                            }
+
+                            .feat-price {
+                                display: flex;
+                                align-items: baseline;
+                                gap: 14px;
+
+                                span {
+                                    color: #dc3545;
+                                    font-size: 14px;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: 400;
+                                }
+
+                                del {
+                                    color: #848484;
+                                    font-size: 14px;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+                .onsale {
+                    p {
+                        position: relative;
+                        margin: 0;
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-family: "Inter", sans-serif;
+                        color: #333;
+                        border-bottom: 1px solid #dddddd;
+                        padding-bottom: 3px;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: -1px;
+                            width: 115px;
+                            height: 2px;
+                            background-color: #fed700;
+                        }
+                    }
+
+                    .featured1 {
+                        display: flex;
+                        gap: 17px;
+                        padding-top: 26px;
+
+                        img {
+                            width: 104px;
+                            height: 102px;
+                            object-fit: cover;
+                            object-position: center;
+                            cursor: pointer;
+                        }
+
+                        .feat-tittle {
+                            h3 {
+                                width: 180px;
+                                font-size: 14px;
+                                font-weight: 700;
+                                color: #0062bd;
+                                font-family: 'Inter', sans-serif;
+                                cursor: pointer;
+                                transition: .3s ease-in-out;
+                                &:hover{
+                                    color: #fed700;
+                                }
+                            }
+
+                            .feat-price {
+                                display: flex;
+                                align-items: baseline;
+                                gap: 14px;
+
+                                span {
+                                    color: #dc3545;
+                                    font-size: 14px;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: 400;
+                                }
+
+                                del {
+                                    color: #848484;
+                                    font-size: 14px;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+                .toprated {
+                    p {
+                        position: relative;
+                        margin: 0;
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-family: "Inter", sans-serif;
+                        color: #333;
+                        border-bottom: 1px solid #dddddd;
+                        padding-bottom: 3px;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: -1px;
+                            width: 115px;
+                            height: 2px;
+                            background-color: #fed700;
+                        }
+                    }
+
+                    .featured1 {
+                        display: flex;
+                        gap: 17px;
+                        padding-top: 26px;
+
+                        img {
+                            width: 104px;
+                            height: 102px;
+                            object-fit: cover;
+                            object-position: center;
+                            cursor: pointer;
+                        }
+
+                        .feat-tittle {
+                            h3 {
+                                width: 180px;
+                                font-size: 14px;
+                                font-weight: 700;
+                                color: #0062bd;
+                                font-family: 'Inter', sans-serif;
+                                cursor: pointer;
+                                transition: .3s ease-in-out;
+                                &:hover{
+                                    color: #fed700;
+                                }
+                            }
+
+                            .feat-price {
+                                display: flex;
+                                align-items: baseline;
+                                gap: 14px;
+
+                                span {
+                                    color: #dc3545;
+                                    font-size: 14px;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: 400;
+                                }
+
+                                del {
+                                    color: #848484;
+                                    font-size: 14px;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+                .smartg3{
+                    width: 340px;
+                    height: 360px;
+                    img{
+                        object-fit: cover;
+                        object-position: center;
+                        width: 100%;
+                        height: 100%;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

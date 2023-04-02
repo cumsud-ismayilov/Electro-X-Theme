@@ -1316,3 +1316,429 @@
     }
 }
 // Collection page nav end
+
+// #Detail page header strat
+.detailheader {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 7px;
+    margin-bottom: 9px;
+
+    .container {
+        .row {
+            .tell {
+                display: flex;
+                align-items: baseline;
+                gap: 6px;
+                justify-content: left;
+                border-right: 1px solid #dddddd;
+                width: 191px;
+
+
+                .fa-phone {
+                    color: #fed700;
+                    font-size: 13px;
+                }
+
+                p {
+                    color: #333e48;
+                    font-size: 13px;
+                    font-family: 'Inter', sans-serif;
+                    letter-spacing: 1px;
+                    margin: 0;
+                }
+            }
+
+            .contact-email {
+                display: flex;
+                align-items: baseline;
+                gap: 6px;
+                justify-content: left;
+
+                .fa-envelope {
+                    color: #fed700;
+                    font-size: 13px;
+                }
+
+                p {
+                    color: #333e48;
+                    font-size: 13px;
+                    font-family: 'Inter', sans-serif;
+                    margin: 0;
+                }
+            }
+
+            .rw-right {
+                display: flex;
+                align-items: baseline;
+                gap: 20px;
+                justify-content: end;
+
+                .location {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 6px;
+                    justify-content: flex-end;
+                    border-right: 1px solid #dddddd;
+                    padding-right: 9px;
+
+                    .bi-geo-alt {
+                        color: #333e48;
+                        font-size: 13px;
+                    }
+
+                    p {
+                        color: #333e48;
+                        font-size: 13px;
+                        font-family: 'Inter', sans-serif;
+                        margin: 0;
+                        cursor: pointer;
+                    }
+                }
+
+                .sign-or-register {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 6px;
+                    justify-content: flex-end;
+                    border-right: 1px solid #dddddd;
+                    padding-right: 9px;
+
+                    .bi-person {
+                        color: #333e48;
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin: 0;
+
+                        a {
+                            text-decoration: none;
+                            color: #333e48;
+                            font-size: 13px;
+                            font-family: 'Inter', sans-serif;
+                            margin: 0;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .bi-globe {
+                    color: #333e48;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+// #Detail page header end
+
+// Detail page nav start
+.detailnav {
+    .container {
+        .row {
+            .nav-top {
+                display: flex;
+                padding-top: 8px;
+                align-items: baseline;
+                gap: 49px;
+                padding-bottom: 8px;
+
+                .site-logo {
+                    width: 144px;
+                    height: 43px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                .site-search {
+                    display: flex;
+                    align-items: center;
+
+                    form {
+                        .search-site {
+                            width: 594px;
+                            height: 39px;
+                            border-radius: 25px 0px 0px 25px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            font-family: 'Inter', sans-serif;
+                            padding: 10px 15px;
+                            background-color: #ffffff;
+                            border: 2px solid #fed700;
+                            color: #333e48;
+                        }
+                    }
+
+                    .bi-search {
+                        padding: 5px 19px;
+                        background-color: #fed700;
+                        border-radius: 0px 25px 25px 0px;
+                        color: #333;
+                        font-size: 19px;
+                        cursor: pointer;
+                        height: 39px;
+
+                        &:hover {
+                            background-color: #333e48;
+                            color: #fff;
+                            transition: .3s ease-in-out;
+                        }
+                    }
+                }
+
+                .site-action {
+                    display: flex;
+                    align-items: baseline;
+                    gap: 54px;
+                    justify-content: center;
+
+                    .compare {
+                        position: relative;
+
+                        .return {
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                        p {
+                            margin: 0;
+                            width: 21px;
+                            height: 20px;
+                            font-size: 13px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #fed700;
+                            border-radius: 50%;
+                            font-weight: 600;
+                            position: absolute;
+                            top: 16px;
+                            right: -4px;
+                        }
+                    }
+
+                    .heart {
+                        position: relative;
+
+                        .heart-icon {
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                        p {
+                            margin: 0;
+                            width: 21px;
+                            height: 20px;
+                            font-size: 13px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #fed700;
+                            border-radius: 50%;
+                            font-weight: 600;
+                            position: absolute;
+                            top: 16px;
+                            right: -4px;
+                        }
+                    }
+
+                    .shop {
+                        position: relative;
+
+                        .card-icon {
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                        p {
+                            margin: 0;
+                            width: 21px;
+                            height: 20px;
+                            font-size: 13px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #fed700;
+                            border-radius: 50%;
+                            font-weight: 600;
+                            position: absolute;
+                            top: 16px;
+                            right: -4px;
+                        }
+
+                        h2 {
+                            font-size: 17px;
+                            font-weight: 600;
+                            font-family: 'Inter', sans-serif;
+                            position: absolute;
+                            top: 6px;
+                            right: -56px;
+                        }
+                    }
+                }
+            }
+
+            .nav-bottom {
+                display: flex;
+                align-items: center;
+                padding-top: 12px;
+
+                .alldepart {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    background-color: #fed700;
+                    padding: 9px 14px;
+                    width: 300px;
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    .menuss {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: 'Inter', sans-serif;
+                        color: #333e48;
+                    }
+                }
+
+                .detail-ul {
+                    list-style: none;
+                    display: flex;
+                    align-items: baseline;
+                    gap: 28px;
+                    justify-content: left;
+                    padding: 0;
+                    margin-top: 18px;
+
+                    .home {
+                        cursor: pointer;
+                        color: #dc3545;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: 'Inter', sans-serif;
+
+                        .bi-chevron-down {
+                            font-size: 13px;
+                        }
+                    }
+
+                    .catalog {
+                        cursor: pointer;
+                        position: relative;
+                        color: #333e48;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: 'Inter', sans-serif;
+
+                        .bi-chevron-down {
+                            font-size: 13px;
+                        }
+
+                        p {
+                            background-color: #4cd964;
+                            margin: 0;
+                            width: 37px;
+                            height: 14px;
+                            color: #fff;
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: 'Inter', sans-serif;
+                            position: absolute;
+                            top: -11px;
+                            right: 0;
+                            border-radius: 4px;
+                        }
+                    }
+
+                    .gift {
+                        cursor: pointer;
+                        color: #333e48;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: 'Inter', sans-serif;
+
+                        .bi-chevron-down {
+                            font-size: 13px;
+                        }
+                    }
+
+                    .pages {
+                        cursor: pointer;
+                        position: relative;
+                        color: #333e48;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: 'Inter', sans-serif;
+
+                        .bi-chevron-down {
+                            font-size: 13px;
+                        }
+
+                        p {
+                            background-color: #007aff;
+                            margin: 0;
+                            width: 37px;
+                            height: 14px;
+                            color: #fff;
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: 'Inter', sans-serif;
+                            position: absolute;
+                            top: -11px;
+                            right: -8px;
+                            border-radius: 4px;
+                        }
+                    }
+
+                    .features {
+                        cursor: pointer;
+                        position: relative;
+                        color: #333e48;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: 'Inter', sans-serif;
+
+                        p {
+                            background-color: #ff3b30;
+                            margin: 0;
+                            width: 37px;
+                            height: 14px;
+                            color: #fff;
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: 'Inter', sans-serif;
+                            position: absolute;
+                            top: -11px;
+                            right: -8px;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+
+                .order {
+                    margin-top: 18px;
+
+                    p {
+                        color: #333e48;
+                        font-size: 14px;
+                        font-weight: 700;
+                        font-family: 'Inter', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+// Detail page nav end
