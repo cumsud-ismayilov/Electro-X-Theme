@@ -24,6 +24,11 @@ var swiper = new Swiper(".mySwiper", {
   });
 // Slider code end
 
+// Tumb galery code start
+
+  
+// Tumb galery code end
+
 
 
 
