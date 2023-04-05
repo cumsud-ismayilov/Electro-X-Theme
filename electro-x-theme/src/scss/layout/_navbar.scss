@@ -686,10 +686,13 @@
                             left: -151px;
                             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
                             background-color: #fff;
-                            width: 312px;
                            
+                            transition: .3s ease-in-out;
                             z-index: 9999;
-                             height: 0;
+                              height: 0;
+                            opacity: 1;
+                            width: 0;
+                            
                         
                             .mycart {
                                 display: flex;
@@ -724,6 +727,9 @@
                         .shopactive{
                             transform: translateX(0px);
                             height: 751px;
+                            opacity: 1;
+                            width: 312px;
+                            
                         }
                         }
                      }

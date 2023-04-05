@@ -8,99 +8,105 @@
 }
 
 // login slide star
-// .swiper {
-//     width: 100%;
-//     height: 100%;
-//     padding: 4rem 3rem 2rem;
-//   }
+#loginslide{
+  .swiper {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 3rem 2rem;
+  }
 
-//   .swiper-slide {
-//     text-align: center;
-//     font-size: 18px;
-//     background: #fff;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 210px !important;
-//     height: 65px;
-//   }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px !important;
+    height: 65px;
+  }
 
-//   .swiper-wrapper{
-//     border-top: 1px solid rgb(221, 221, 221);
-//     border-bottom: 1px solid rgb(221, 221, 221);
-//     padding: 10px 0px;
-//   }
+  .swiper-wrapper{
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 10px 0px;
+  }
 
-//   .swiper-slide img {
-//     display: block;
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-//     object-position: center;
-//     cursor: pointer;
-//   }
-//   .swiper-button-next{
-//     color: #333e48;
-//     &::after{
-//       font-size: 22px;
-//       margin-top: 25px;
-//     }
-//   }
-//   .swiper-button-prev{
-//     color: #333e48;
-//     &::after{
-//       font-size: 22px;
-//       margin-top: 25px;
-//     }
-//   }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+  }
+  .swiper-button-next{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+  .swiper-button-prev{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+}
+
 
 // login slide end
 // register slide star
-// .swiper {
-//     width: 100%;
-//     height: 100%;
-//     padding: 4rem 3rem 2rem;
-//   }
+#registerslide{
+  .swiper {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 3rem 2rem;
+  }
 
-//   .swiper-slide {
-//     text-align: center;
-//     font-size: 18px;
-//     background: #fff;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 210px !important;
-//     height: 65px;
-//   }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px !important;
+    height: 65px;
+  }
 
-//   .swiper-wrapper{
-//     border-top: 1px solid rgb(221, 221, 221);
-//     border-bottom: 1px solid rgb(221, 221, 221);
-//     padding: 10px 0px;
-//   }
+  .swiper-wrapper{
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 10px 0px;
+  }
 
-//   .swiper-slide img {
-//     display: block;
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover;
-//     object-position: center;
-//     cursor: pointer;
-//   }
-//   .swiper-button-next{
-//     color: #333e48;
-//     &::after{
-//       font-size: 22px;
-//       margin-top: 25px;
-//     }
-//   }
-//   .swiper-button-prev{
-//     color: #333e48;
-//     &::after{
-//       font-size: 22px;
-//       margin-top: 25px;
-//     }
-//   }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+  }
+  .swiper-button-next{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+  .swiper-button-prev{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+}
+
 
 // register slide end
 
@@ -159,51 +165,54 @@
 // Navbar scrool scss code end
 
 // Collection page slider start
-.swiper {
-  width: 100%;
-  height: 100%;
-  padding: 4rem 3rem 2rem;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 210px !important;
-  height: 65px;
-}
-
-.swiper-wrapper{
-  border-top: 1px solid rgb(221, 221, 221);
-  border-bottom: 1px solid rgb(221, 221, 221);
-  padding: 10px 0px;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  cursor: pointer;
-}
-.swiper-button-next{
-  color: #333e48;
-  &::after{
-    font-size: 22px;
-    margin-top: 25px;
+#collectionslide{
+  .swiper {
+    width: 100%;
+    height: 100%;
+    padding: 4rem 3rem 2rem;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px !important;
+    height: 65px;
+  }
+  
+  .swiper-wrapper{
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 10px 0px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+  }
+  .swiper-button-next{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
+  }
+  .swiper-button-prev{
+    color: #333e48;
+    &::after{
+      font-size: 22px;
+      margin-top: 25px;
+    }
   }
 }
-.swiper-button-prev{
-  color: #333e48;
-  &::after{
-    font-size: 22px;
-    margin-top: 25px;
-  }
-}
+
 // Collection page slider end
 
 
