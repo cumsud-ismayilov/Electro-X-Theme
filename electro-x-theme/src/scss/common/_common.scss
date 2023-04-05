@@ -44,14 +44,14 @@
     color: #333e48;
     &::after{
       font-size: 22px;
-      margin-top: 25px;
+      margin-top: 4px;
     }
   }
   .swiper-button-prev{
     color: #333e48;
     &::after{
       font-size: 22px;
-      margin-top: 25px;
+      margin-top: 4px;
     }
   }
 }
@@ -254,14 +254,14 @@
     color: #333e48;
     &::after{
       font-size: 22px;
-      margin-top: 25px;
+      margin-top: 4px;
     }
   }
   .swiper-button-prev{
     color: #333e48;
     &::after{
       font-size: 22px;
-      margin-top: 25px;
+      margin-top: 4px;
     }
   }
 }
@@ -328,6 +328,20 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .swiper-button-next{
+    color: #333e48;
+    &::after{
+      font-size: 16px;
+      margin-top: 4px;
+    }
+  }
+  .swiper-button-prev{
+    color: #333e48;
+    &::after{
+      font-size: 16px;
+      margin-top: 4px;
+    }
   }
 }
 

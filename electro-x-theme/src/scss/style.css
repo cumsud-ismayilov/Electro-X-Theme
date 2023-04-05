@@ -42,14 +42,14 @@
 }
 #loginslide .swiper-button-next::after {
   font-size: 22px;
-  margin-top: 25px;
+  margin-top: 4px;
 }
 #loginslide .swiper-button-prev {
   color: #333e48;
 }
 #loginslide .swiper-button-prev::after {
   font-size: 22px;
-  margin-top: 25px;
+  margin-top: 4px;
 }
 
 #registerslide .swiper {
@@ -227,14 +227,14 @@
 }
 #detailslide .swiper-button-next::after {
   font-size: 22px;
-  margin-top: 25px;
+  margin-top: 4px;
 }
 #detailslide .swiper-button-prev {
   color: #333e48;
 }
 #detailslide .swiper-button-prev::after {
   font-size: 22px;
-  margin-top: 25px;
+  margin-top: 4px;
 }
 
 #inner .swiper {
@@ -289,6 +289,20 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+#inner .swiper-button-next {
+  color: #333e48;
+}
+#inner .swiper-button-next::after {
+  font-size: 16px;
+  margin-top: 4px;
+}
+#inner .swiper-button-prev {
+  color: #333e48;
+}
+#inner .swiper-button-prev::after {
+  font-size: 16px;
+  margin-top: 4px;
 }
 
 .loginheader {

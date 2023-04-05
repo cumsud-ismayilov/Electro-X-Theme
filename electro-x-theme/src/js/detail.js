@@ -17,30 +17,28 @@ var swiper = new Swiper(".mySwiper", {
         spaceBetween: 35,
       },
     },
-    // navigation: {
-    //     nextEl: ".swiper-button-next",
-    //     prevEl: ".swiper-button-prev",
-    //   },
-  });
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+   });
 // Slider code end
 
 // Tumb galery code start
-var swipers = new Swiper(".mySwiper", {
-  loop: true,
+var swiper1 = new Swiper(".mySwiper", {
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
 });
-var swiper2s = new Swiper(".mySwiper2", {
-  // loop: true,
+var swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
   thumbs: {
-    swipers: swiper2s,
+    swiper1: swiper1,
   },
 });
 // Tumb galery code end
