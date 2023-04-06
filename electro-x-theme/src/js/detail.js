@@ -43,6 +43,30 @@ var swiper2 = new Swiper(".mySwiper2", {
 });
 // Tumb galery code end
 
+const Numberclick1 = document.querySelector(".number2");
+if (Numberclick1) {
+  Numberclick1.addEventListener("click",()=>{
+    console.log("salam");
+    Numberclick1.style.borderColor = "#fed700";
+  })
+}
+
+const Numberclick2 = document.querySelector(".number1");
+if (Numberclick2) {
+  Numberclick2.addEventListener("click",()=>{
+    console.log("salam");
+    Numberclick2.style.borderColor = "#fed700";
+  })
+}
+
+
+
+
+
+
+
+
+
 
 
 
