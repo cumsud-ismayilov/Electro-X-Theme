@@ -1,4 +1,4 @@
-#detailmain{
+#detailmain {
     #banner {
         .breadcrumb {
             display: flex;
@@ -25,6 +25,7 @@
                     }
                 }
             }
+
             h4 {
                 a {
                     text-decoration: none;
@@ -52,10 +53,12 @@
                 font-weight: 400;
             }
         }
-       
+
     }
+
     #shopify {
         padding-top: 4.5rem;
+
         .container {
             .row {
                 .featured {
@@ -102,7 +105,8 @@
                                 font-family: 'Inter', sans-serif;
                                 cursor: pointer;
                                 transition: .3s ease-in-out;
-                                &:hover{
+
+                                &:hover {
                                     color: #fed700;
                                 }
                             }
@@ -129,6 +133,7 @@
                         }
                     }
                 }
+
                 .onsale {
                     p {
                         position: relative;
@@ -174,7 +179,8 @@
                                 font-family: 'Inter', sans-serif;
                                 cursor: pointer;
                                 transition: .3s ease-in-out;
-                                &:hover{
+
+                                &:hover {
                                     color: #fed700;
                                 }
                             }
@@ -201,6 +207,7 @@
                         }
                     }
                 }
+
                 .toprated {
                     p {
                         position: relative;
@@ -246,7 +253,8 @@
                                 font-family: 'Inter', sans-serif;
                                 cursor: pointer;
                                 transition: .3s ease-in-out;
-                                &:hover{
+
+                                &:hover {
                                     color: #fed700;
                                 }
                             }
@@ -273,10 +281,12 @@
                         }
                     }
                 }
-                .smartg3{
+
+                .smartg3 {
                     width: 340px;
                     height: 360px;
-                    img{
+
+                    img {
                         object-fit: cover;
                         object-position: center;
                         width: 100%;
@@ -287,6 +297,286 @@
             }
         }
     }
+
+    #inner {
+        .container {
+            .row {
+                .product-info {
+                    p {
+                        color: #878787;
+                        font-size: 14px;
+                        margin-bottom: 3px;
+                        font-weight: 400;
+                        font-family: 'Inter', sans-serif;
+                    }
+
+                    h2 {
+                        font-size: 25px;
+                        margin: 0 0 13px;
+                        padding: 0;
+                        font-weight: 400;
+                    }
+
+                    .product-star {
+                        display: flex;
+                        align-items: baseline;
+                        gap: 7px;
+
+                        .bi-star-fill {
+                            color: #FED700;
+                            font-size: 14px;
+                        }
+
+                        h6 {
+                            color: #878787;
+                            font-size: 14px;
+
+                            font-weight: 400;
+                            font-family: 'Inter', sans-serif;
+                        }
+                    }
+
+                    .share-product {
+                        display: flex;
+                        align-items: baseline;
+                        gap: 10px;
+
+                        .facebook {
+                            background-color: #3b5998;
+                            padding: 4px 8px;
+                            border-radius: 3px;
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                                border-radius: 2px;
+                                border: none;
+                                font-size: 15px;
+
+                                .bi-facebook {}
+                            }
+                        }
+
+                        .tweeter {
+                            background-color: #1da1f2;
+                            padding: 4px 8px;
+                            border-radius: 3px;
+
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                                border-radius: 2px;
+                                border: none;
+                                font-size: 15px;
+
+                                .bi-twitter {}
+                            }
+                        }
+                    }
+
+                    h4 {
+                        border-bottom: 1px solid #dddddd;
+                        color: #878787;
+                        font-size: 14px;
+                        padding: 8px 0px 13px 0px;
+                        font-weight: 400;
+                        font-family: 'Inter', sans-serif;
+                    }
+
+                    .short-description {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 3px;
+                        border-bottom: 1px solid #dddddd;
+                        padding-bottom: 7px;
+
+                        .description1 {
+                            display: flex;
+                            align-items: center;
+
+                            .bi-dot {
+                                color: #878787;
+                                font-size: 22px;
+                            }
+
+                            h5 {
+                                color: #878787;
+                                font-size: 14px;
+                                margin: 0px;
+                                font-weight: 400;
+                                font-family: "Inter", sans-serif;
+                            }
+                        }
+                    }
+                }
+
+                .shopping-info {
+                    .avaib {
+                        color: #878787;
+                        font-size: 14px;
+                        margin-bottom: 3px;
+                        font-weight: 400;
+                        font-family: "Inter", sans-serif;
+
+                        span {
+                            color: #ed462f;
+                            font-weight: 600;
+                        }
+                    }
+
+                    h6 {
+                        font-size: 33px;
+                        padding-top: 11px;
+                        font-weight: 400;
+                        color: #333;
+                        margin-bottom: 4px;
+                    }
+
+                    h5 {
+                        color: #878787;
+                        font-size: 14px;
+                        margin-bottom: 3px;
+                        font-weight: 400;
+                        font-family: "Inter", sans-serif;
+                    }
+
+                    h4 {
+                        font-size: 17px;
+                        padding-top: 11px;
+                        font-weight: 400;
+                        color: #333;
+                        margin-bottom: 4px;
+                    }
+
+                    .product-number {
+                        display: flex;
+                        align-items: baseline;
+                        gap: 16px;
+
+                        .number1 {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #333;
+                            margin: 0;
+                            width: 35px;
+                            height: 35px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 2px solid #fed700;
+                            border-radius: 50%;
+                        }
+
+                        .number2 {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #333;
+                            margin: 0;
+                            width: 35px;
+                            height: 35px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 2px solid #878787;
+                            border-radius: 50%;
+                        }
+
+                        .number3 {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #333;
+                            margin: 0;
+                            width: 35px;
+                            height: 35px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 2px solid #878787;
+                            border-radius: 50%;
+                        }
+
+                        .number4 {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #333;
+                            margin: 0;
+                            width: 35px;
+                            height: 35px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 2px solid #878787;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 17px;
+                        padding-top: 20px;
+                        font-weight: 400;
+                        color: #333;
+                        margin-bottom: 4px;
+                    }
+
+                    .color-type {
+                        display: flex;
+                        align-items: center;
+                        gap: 13px;
+                        .blue {
+                            width: 34px;
+                            height: 34px;
+                            background-color: #348bd9;
+                            border-radius: 50%;
+                            cursor: pointer;
+                           
+                        }
+                        .black {
+                            width: 34px;
+                            height: 34px;
+                            background-color: #333;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            border: 1px solid #fed700;
+                        }
+                        .red {
+                            width: 34px;
+                            height: 34px;
+                            background-color: #ff0000;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            
+                        }
+                        .yellow {
+                            width: 34px;
+                            height: 34px;
+                            background-color: #fed700;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            
+                        }
+                    }
+
+                    h1 {}
+
+                    .quality-number {
+                        p {}
+
+                        .plus-minus {
+                            .bi-plus {}
+
+                            .bi-dash {}
+                        }
+                    }
+
+                    .shopping-button {
+                        .unavailable {
+                            .bi-cart3 {}
+                        }
+
+                        .buy {}
+                    }
+                }
+            }
+        }
+    }
 }
-
-
