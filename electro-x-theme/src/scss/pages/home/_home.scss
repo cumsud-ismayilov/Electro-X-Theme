@@ -7,8 +7,9 @@
                     height: 150px;
                     overflow: hidden;
                     position: relative;
-                    &:hover{
-                        .imghover{
+
+                    &:hover {
+                        .imghover {
                             transform: translateY(0);
                         }
                     }
@@ -39,6 +40,188 @@
                         }
 
 
+                    }
+                }
+            }
+        }
+    }
+
+    #products {
+        .container {
+            .row {
+                .gamepad {
+                    border: 2px solid #fed700;
+                    border-radius: 20px;
+                    padding: 20px 20px;
+                    position: relative;
+
+                    .pad-img {
+                        width: 371px;
+                        height: 359px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .special {
+                        font-size: 22px;
+                        color: #333e48;
+                        position: absolute;
+                        top: 18px;
+                    }
+
+                    .discount {
+                        background-color: #fed700;
+                        width: 77px;
+                        height: 77px;
+                        border-radius: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        top: 13px;
+                        right: 8px;
+
+                        h1 {
+                            font-size: 13px;
+                            color: #333e48;
+                            margin: 0;
+                        }
+
+                        h2 {
+                            font-size: 25px;
+                            color: #333e48;
+                            margin: 0;
+                            font-weight: 600;
+                        }
+                    }
+
+                    .gamepaditem-bottom {
+                        h4 {
+                            font-size: 14px;
+                            font-weight: 700;
+                            color: #0062bd;
+                            text-align: center;
+                            cursor: pointer;
+                            transition: .3s ease-in-out;
+
+                            &:hover {
+                                color: #fed700;
+                            }
+                        }
+
+                        .price {
+                            display: flex;
+                            align-items: baseline;
+                            gap: 15px;
+                            justify-content: center;
+
+                            h5 {
+                                font-size: 28px;
+                                color: #dc3545;
+                                font-weight: 400;
+                                margin: 0;
+                            }
+
+                            del {
+                                color: #848484;
+                                font-size: 19px;
+                            }
+                        }
+
+                        .progrestip {
+                            margin-top: 31px;
+                            display: flex;
+                            align-items: baseline;
+                            justify-content: space-between;
+
+                            p {
+                                font-size: 13px;
+                                color: #333e48;
+                                font-weight: 500;
+                                margin: 0;
+                            }
+                        }
+
+                        .progress {
+                            margin-top: 6px;
+
+                            .progress-bar {
+                                background-color: #fed700 !important;
+                                width: 25% !important;
+                            }
+                        }
+
+                        .hurry {
+                            font-size: 17px;
+                            color: #333e48;
+                            font-weight: 400;
+                            text-align: center;
+                            margin-top: 17px;
+                        }
+
+                        .countdown {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 13px;
+
+                            #hours {
+                                display: inline-block;
+                                width: 44px;
+                                height: 44px;
+                                background-color: #eee;
+                                font-size: 27px;
+                                text-align: center;
+                                font-weight: 600;
+                            }
+
+                            #minutes {
+                                display: inline-block;
+                                width: 44px;
+                                height: 44px;
+                                background-color: #eee;
+                                font-size: 27px;
+                                text-align: center;
+                                font-weight: 600;
+                            }
+
+                            #seconds {
+                                display: inline-block;
+                                width: 44px;
+                                height: 44px;
+                                background-color: #eee;
+                                font-size: 27px;
+                                text-align: center;
+                                font-weight: 600;
+                            }
+
+                            span {
+                                font-size: 26px;
+                                font-weight: 700;
+                            }
+
+                          
+                        }
+                        .countdowntittle {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 34px;
+                            padding-top: 3px;
+                        
+                            p {
+                                font-size: 10px;
+                                color: #333e48;
+                                font-weight: 500;
+                            }
+                        }
                     }
                 }
             }

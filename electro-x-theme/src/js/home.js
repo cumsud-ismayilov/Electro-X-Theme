@@ -23,3 +23,36 @@ var swiper = new Swiper(".mySwiper", {
       },
    });
 // slide 1code end
+
+function displayTime(){
+  var dateTime = new Date();
+  var hrs = dateTime.getHours();
+  var min = dateTime.getMinutes();
+  var sec = dateTime.getSeconds();
+
+
+  document.getElementById('hours').innerHTML = hrs ;
+  document.getElementById('minutes').innerHTML = min ;
+  document.getElementById('seconds').innerHTML = sec ;
+}
+
+setInterval(displayTime,10);
+
+
+
+
+
+$(document).ready( function() {   
+
+  $('.grid').isotope({
+    itemSelector: '.grid-item',
+  });
+  
+  // filter items on button click
+  $('.filter-button-group').on( 'click', 'li', function() {
+    var filterValue = $(this).attr('data-filter');
+    $('.grid').isotope({ filter: filterValue });
+    $('.filter-button-group li').removeClass('active');
+    $(this).addClass('active');
+  });
+      })
