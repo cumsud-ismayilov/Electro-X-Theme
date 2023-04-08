@@ -402,15 +402,202 @@ color: #333e48;
 // Home page slide 1 end
 
 // Home page slide 2 start
+#carouselExampleIndicators{
+  overflow: hidden;
+}
 .carousel-item{
   width: 100%;
   height: 400px;
+  position: relative;
   img{
     height: 100%;
     object-fit: cover;
     object-position: center;
   }
+  .carosusel-hover{
+    position: absolute;
+    top: 4rem;
+    left: 27rem;
+
+    span{
+          color: #333e48;
+    font-size: 53px;
+    margin: 0 0 10px 0;
+    line-height: 0.9;
+    font-weight: 300;
+    }
+    h3{
+          color: #333e48;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    line-height: 0.9;
+    font-weight: 700;
+    padding-top: 8px;
+    }
+    h4{
+          color: #333e48;
+    font-size: 17px;
+    margin: 0 0 10px 0;
+    line-height: 0.9;
+    font-weight: 700;
+    }
+    p{
+      color: #333e48;
+      font-size: 35px;
+      // margin: 0 0 10px 0;
+      line-height: 0.9;
+      font-weight: 700;
+      sub{
+        color: #333e48;
+        font-size: 49px;
+        margin: 0 0 10px 0;
+        line-height: 0.9;
+        font-weight: 700;
+      }
+    }
+    button{
+      margin-top: 8px;
+      padding: 14px 50px;
+    background-color: #fed700;
+    font-size: 14px;
+    font-weight: 700;
+    width: 229px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    color: #333e48;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover{
+      background-color: #333e48;
+     border: none;
+     color: #fff;
+    }
+    }
+  }
+  .carusel-img{
+    position: absolute;
+    top: -1rem;
+    right: 4rem;
+    width: 547px;
+    height: 416px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
 }
+.caruselitemdif{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .carosusel-hover{
+    position: absolute;
+    top: 4rem;
+    left: 27rem;
+
+  h3{
+    color: #34bcec;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    line-height: 0.9;
+    font-weight: 700;
+    padding-top: 8px;
+    }
+   
+   p{
+    color: #333e48;
+    font-size: 46px;
+    margin: 0 0 10px 0;
+    line-height: 0.9;
+    font-weight: 300;
+    span{
+      color: #333e48;
+      font-size: 53px;
+      line-height: 0.9;
+      font-weight: 700;
+    }
+   }
+    button{
+      margin-top: 8px;
+      padding: 14px 50px;
+    background-color: #fed700;
+    font-size: 14px;
+    font-weight: 700;
+    width: 229px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    color: #333e48;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    &:hover{
+      background-color: #333e48;
+     border: none;
+     color: #fff;
+    }
+    }
+  }
+  .carusel-img{
+    position: absolute;
+    top: -1rem;
+    right: 4rem;
+    width: 547px;
+    height: 416px;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+.carousel-control-prev{
+  left: -51px;
+}
+.carousel-control-prev-icon{
+  background-color: #333e48;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.carousel-control-next{
+  right: -51px;
+}
+.carousel-control-next-icon{
+  background-color: #333e48;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.carousel-indicators{
+  .circle1{
+    background-color: #fed700;
+    width: 13px;
+    height: 11px;
+    border-radius: 50%;
+  }
+  .circle2{
+    background-color: #fed700;
+    width: 13px;
+    height: 11px;
+    border-radius: 50%;
+  }
+  .circle3{
+    background-color: #fed700;
+    width: 13px;
+    height: 11px;
+    border-radius: 50%;
+  }
+}
+
 // Home page slide 2 end
 
 
