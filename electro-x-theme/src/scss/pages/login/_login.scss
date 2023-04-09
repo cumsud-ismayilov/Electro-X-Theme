@@ -1,6 +1,9 @@
 #loginmain {
     #banner {
         .breadcrumb {
+            @media screen and (max-width: 768px){
+                padding-left: 10px;
+            }
             display: flex;
             align-items: baseline;
             gap: 6px;
@@ -151,6 +154,9 @@
                 }
 
                 .register-part {
+                    @media screen and (max-width: 768px){
+                        padding-left: 0;
+                    }
                     padding-left: 28px;
 
                     h3 {
@@ -463,6 +469,9 @@
                     }
                 }
                 .smartg3{
+                    @media screen and (max-width: 768px){
+                      width: 318px;
+                    }
                     width: 340px;
                     height: 360px;
                     img{

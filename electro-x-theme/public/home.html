@@ -17,6 +17,48 @@
     <title>Electro X Theme</title>
 </head>
 <body>
+    <div class="totop">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+          </svg>
+          
+    </div>
+    <nav class="mobilenav">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="mobileitem">
+                        <i class="bi bi-list mobile-navclick">
+                            <div class="menulist">
+                                <div class="menutop">
+                                    <i class="bi bi-x-lg"></i>
+                                    <div class="menuicon">
+                                        <i class="bi bi-heart"></i>
+                                        <i class="bi bi-bag"></i>
+                                    </div>
+                                </div>
+                                <div class="menutext">
+                                    <ul>
+                                        <li>Home</li>
+                                        <li>Catalog</li>
+                                        <li>Gift Cards</li>
+                                        <li>Pages</li>
+                                        <li>Features</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </i>
+                        <img src="../src/images/Screenshot 2023-03-31 002425.png" alt="">
+                    <div class="mobilenavicon">
+                        <i class="bi bi-search"></i>
+                        <i class="bi bi-person"></i>
+                        <i class="bi bi-bag"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <header class="homeheader">
         <div class="container">
             <div class="row">
@@ -86,16 +128,17 @@
 
                                 <p>0</p>
                             </div>
-                            <div class="shop">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 card-icon">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                                </svg>
-
+                            <i class="bi bi-bag shopcart">
                                 <p>0</p>
-                                <h2>$0.00</h2>
-                            </div>
+                               <h1>€0,00</h1>
+                               <div class="shopclick shplist">
+                                <div class="mycart">
+                                    <i class="bi bi-x"></i>
+                                    <h6>My Cart</h6>
+                                </div>
+                                <h4>Your cart is empty</h4>
+                                </div>
+                            </i>
                         </div>
                     </div>
                 </div>
@@ -108,16 +151,69 @@
                                     d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
                             <p>All Departments</p>
+                            <div class="depart-hover departlist">
+                                <p class="value1"><a href="../public/detail.html">Value of the Day</a></p>
+                                <p class="value1"><a href="#">Top 100 Offers</a></p>
+                                <p class="value1"><a href="#">Top 100 Offers</a></p>
+                                <p class="value2"><a href="#">Top 100 Offers</a></p>
+                                <p class="value2"><a href="#">Top 100 Offers</a></p>
+                                <p class="value2"><a href="#">Top 100 Offers</a></p>
+                                <p class="value2"><a href="#">Top 100 Offers</a></p>
+                                <p class="value2"><a href="#">Top 100 Offers</a></p>
+                                <p class="value2"><a href="#">Top 100 Offers</a></p>
+                                <p class="value2"><a href="#">Top 100 Offers</a></p>
+                                <p class="value2"><a href="#">Top 100 Offers</a></p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <ul class="home-ul">
-                            <li class="home">Home <i class="bi bi-chevron-down"></i></li>
+                            <li class="home">Home <i class="bi bi-chevron-down"></i>
+                             <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-2">
+                                        <div class="homehover">
+                                            <h3>Home1</h3>
+                                            <h3>Home3.2</h3>
+                                            <h3>Home2</h3>
+                                            <h3>Home4.3</h3>
+                                            <h3>Home1</h3>
+                                            <h3>Home3.2</h3>
+                                            <h3>Home2</h3>
+                                            <h3>Home4.3</h3>
+                                            <h3>Home1</h3>
+                                            <h3>Home3.2</h3>
+                                            <h3>Home2</h3>
+                                            <h3>Home4.3</h3>
+                                            <h3>Home2</h3>
+                                            <h3>Home4.3</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                            </li>
                             <li class="catalog">Catalog <i class="bi bi-chevron-down"></i>
                              <p>New</p>
                             </li>
                             <li class="gift">Gift Cards <i class="bi bi-chevron-down"></i></li>
-                            <li class="pages">Pages <i class="bi bi-chevron-down"></i>
+                            <li class="pages">Pages <i class="bi bi-chevron-down">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="pagehover">
+                                                <h3>Flyout Left</h3>
+                                                <h3>Flyour Right</h3>
+                                                <h3>About Us</h3>
+                                                <h3>Contact Us</h3>
+                                                <h3>FAQs</h3>
+                                                <h3> Store Locator </h3>
+                                               
+                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </i>
                              <p>New</p>
                             </li>
                             <li class="features">Features
@@ -492,10 +588,291 @@
                 </div>
             </div>
         </section>
+        <section id="cameras">
+            <div class="container">
+               <div class="row">
+                <div class="col-xl-12 g-5">
+                    <div class="camerashead">
+                        <ul class="bestsellerright">
+                            <li class="top1">Top 20</li>
+                            <li class="top2">Phones & Tablets</li>
+                            <li class="top2">Laptops & Computers</li>
+                            <li class="top2">Video Cameras</li>
+                            <li class="top2">Video Cameras</li>
+                            <li class="top2">Video Cameras</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="row">
+                        <div class="col-xl-6 g-3 ">
+                            <div class="product-card">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <div class="prod-img">
+                                   <a href="../public/detail.html"> <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/bluePhone_a39e84fa-4375-49b0-922c-cc70c9076080.png?v=1649399976&width=360" alt=""></a>
+                                </div>
+                                 <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                  <div class="wish">
+                                      <i class="fa-regular fa-heart"></i>
+                                      <p>Wislist</p>
+                                  </div>
+                                  <div class="compar">
+                                      <i class="fa-solid fa-code-compare"></i>
+                                      <p>Compare</p>
+                                  </div>
+                              </div>
+                             </div>
+                        </div>
+                        <div class="col-xl-6 g-3">
+                            <div class="product-card">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <div class="prod-img">
+                                   <a href="../public/detail.html"> <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/apptablet_a5640c96-4b53-4c9c-b483-aa0f8a2c2e3c.png?v=1649399921&width=360" alt=""></a>
+                                </div>
+                                 <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                  <div class="wish">
+                                      <i class="fa-regular fa-heart"></i>
+                                      <p>Wislist</p>
+                                  </div>
+                                  <div class="compar">
+                                      <i class="fa-solid fa-code-compare"></i>
+                                      <p>Compare</p>
+                                  </div>
+                              </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 g-2">
+                            <div class="product-card">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <div class="prod-img">
+                                   <a href="../public/detail.html"> <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/printer.png?v=1649393985&width=360" alt=""></a>
+                                </div>
+                                 <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                  <div class="wish">
+                                      <i class="fa-regular fa-heart"></i>
+                                      <p>Wislist</p>
+                                  </div>
+                                  <div class="compar">
+                                      <i class="fa-solid fa-code-compare"></i>
+                                      <p>Compare</p>
+                                  </div>
+                              </div>
+                             </div>
+                        </div>
+                        <div class="col-xl-6 g-2">
+                            <div class="product-card">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <div class="prod-img">
+                                   <a href="../public/detail.html"> <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/lgphone.png?v=1649399950&width=360" alt=""></a>
+                                </div>
+                                 <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                  <div class="wish">
+                                      <i class="fa-regular fa-heart"></i>
+                                      <p>Wislist</p>
+                                  </div>
+                                  <div class="compar">
+                                      <i class="fa-solid fa-code-compare"></i>
+                                      <p>Compare</p>
+                                  </div>
+                              </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 g-3 ">
+                    <div class="homeslide3">
+                        <p>Givenchy</p>
+                        <h3>Dentoex Product Sample</h3>
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="	https://cdn.shopify.com/s/files/1/0265/3493/6627/products/1.png?v=1649393409&width=540" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/heade1_941c0edc-02b4-4263-afc0-aab623efc7bf.png?v=1650879716&width=100" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/prodcut3.png?v=1650879716&width=100" />
+                              </div>
+                              
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                          </div>
+                          <div thumbsSlider="" class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="	https://cdn.shopify.com/s/files/1/0265/3493/6627/products/1.png?v=1649393409&width=540" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/heade1_941c0edc-02b4-4263-afc0-aab623efc7bf.png?v=1650879716&width=100" />
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/prodcut3.png?v=1650879716&width=100" />
+                              </div>
+                              
+                            </div>
+                          </div>
+                          <div class="prod-price"> 
+                            <h3>€101,95</h3>
+                            <del>€183,95</del>
+                            <button class="unavailable"><i class="bi bi-cart3"></i> Add to Cart</button>
+                        </div>
+                        <div class="shoppingend">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                                <p>Wislist</p>
+                            </div>
+                            <div class="compar">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <p>Compare</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="row">
+                        <div class="col-xl-6 g-3">
+                            <div class="product-card">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <div class="prod-img">
+                                   <a href="../public/detail.html"> <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/bluePhone_a39e84fa-4375-49b0-922c-cc70c9076080.png?v=1649399976&width=360" alt=""></a>
+                                </div>
+                                 <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                  <div class="wish">
+                                      <i class="fa-regular fa-heart"></i>
+                                      <p>Wislist</p>
+                                  </div>
+                                  <div class="compar">
+                                      <i class="fa-solid fa-code-compare"></i>
+                                      <p>Compare</p>
+                                  </div>
+                              </div>
+                             </div>
+                        </div>
+                        <div class="col-xl-6 g-3">
+                            <div class="product-card">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <div class="prod-img">
+                                   <a href="../public/detail.html"> <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/apptablet_a5640c96-4b53-4c9c-b483-aa0f8a2c2e3c.png?v=1649399921&width=360" alt=""></a>
+                                </div>
+                                 <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                  <div class="wish">
+                                      <i class="fa-regular fa-heart"></i>
+                                      <p>Wislist</p>
+                                  </div>
+                                  <div class="compar">
+                                      <i class="fa-solid fa-code-compare"></i>
+                                      <p>Compare</p>
+                                  </div>
+                              </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 g-2">
+                            <div class="product-card">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <div class="prod-img">
+                                   <a href="../public/detail.html"> <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/printer.png?v=1649393985&width=360" alt=""></a>
+                                </div>
+                                 <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                  <div class="wish">
+                                      <i class="fa-regular fa-heart"></i>
+                                      <p>Wislist</p>
+                                  </div>
+                                  <div class="compar">
+                                      <i class="fa-solid fa-code-compare"></i>
+                                      <p>Compare</p>
+                                  </div>
+                              </div>
+                             </div>
+                        </div>
+                        <div class="col-xl-6 g-2">
+                            <div class="product-card">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <div class="prod-img">
+                                   <a href="../public/detail.html"> <img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/lgphone.png?v=1649399950&width=360" alt=""></a>
+                                </div>
+                                 <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                  <div class="wish">
+                                      <i class="fa-regular fa-heart"></i>
+                                      <p>Wislist</p>
+                                  </div>
+                                  <div class="compar">
+                                      <i class="fa-solid fa-code-compare"></i>
+                                      <p>Compare</p>
+                                  </div>
+                              </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </section>
         <section id="bestseller">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-xl-12 g-5">
                         <div class="best-seller-head">
                             <p>Bestseller</p>
                             <ul class="bestsellerright">
@@ -504,6 +881,168 @@
                                 <li class="top2">Laptops & Computers</li>
                                 <li class="top2">Video Cameras</li>
                             </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 g-4">
+                        <div class="productscard2">
+                            <div class="productsimg">
+                                <a href="../public/detail.html"><img src="	https://cdn.shopify.com/s/files/1/0265/3493/6627/products/ipadgreen.png?v=1649393790&width=360" alt=""></a>
+                            </div>
+                            <div class="productstext">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                    <div class="wish">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <p>Wislist</p>
+                                    </div>
+                                    <div class="compar">
+                                        <i class="fa-solid fa-code-compare"></i>
+                                        <p>Compare</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 g-4">
+                        <div class="productscard2">
+                            <div class="productsimg">
+                                <a href="../public/detail.html"><img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/bluePhone_a39e84fa-4375-49b0-922c-cc70c9076080.png?v=1649399976&width=360" alt=""></a>
+                            </div>
+                            <div class="productstext">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                    <div class="wish">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <p>Wislist</p>
+                                    </div>
+                                    <div class="compar">
+                                        <i class="fa-solid fa-code-compare"></i>
+                                        <p>Compare</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 g-4">
+                        <div class="productscard2">
+                            <div class="productsimg">
+                                <a href="../public/detail.html"><img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/apptablet_a5640c96-4b53-4c9c-b483-aa0f8a2c2e3c.png?v=1649399921&width=360" alt=""></a>
+                            </div>
+                            <div class="productstext">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                    <div class="wish">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <p>Wislist</p>
+                                    </div>
+                                    <div class="compar">
+                                        <i class="fa-solid fa-code-compare"></i>
+                                        <p>Compare</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 g-4">
+                        <div class="productscard2">
+                            <div class="productsimg">
+                                <a href="../public/detail.html"><img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/printer.png?v=1649393985&width=360" alt=""></a>
+                            </div>
+                            <div class="productstext">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                    <div class="wish">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <p>Wislist</p>
+                                    </div>
+                                    <div class="compar">
+                                        <i class="fa-solid fa-code-compare"></i>
+                                        <p>Compare</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 g-4">
+                        <div class="productscard2">
+                            <div class="productsimg">
+                                <a href="../public/detail.html"><img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/lgphone.png?v=1649399950&width=360" alt=""></a>
+                            </div>
+                            <div class="productstext">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                    <div class="wish">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <p>Wislist</p>
+                                    </div>
+                                    <div class="compar">
+                                        <i class="fa-solid fa-code-compare"></i>
+                                        <p>Compare</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 g-4">
+                        <div class="productscard2">
+                            <div class="productsimg">
+                                <a href="../public/detail.html"><img src="https://cdn.shopify.com/s/files/1/0265/3493/6627/products/iapdlap_15d8435c-e601-44c4-9b8b-81bc581f1406.png?v=1649399848&width=360" alt=""></a>
+                            </div>
+                            <div class="productstext">
+                                <p>Bulgari</p>
+                                <h2>Faxtex Product Sample</h2>
+                                <h4>45%</h4>
+                                <div class="prod-price"> 
+                                    <h3>€101,95</h3>
+                                    <del>€183,95</del>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                                <div class="shoppingend">
+                                    <div class="wish">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <p>Wislist</p>
+                                    </div>
+                                    <div class="compar">
+                                        <i class="fa-solid fa-code-compare"></i>
+                                        <p>Compare</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

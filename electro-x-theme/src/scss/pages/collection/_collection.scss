@@ -1,6 +1,10 @@
-#collectionmain{
+#collectionmain {
     #banner {
         .breadcrumb {
+            @media screen and (max-width: 768px) {
+                padding: 0px 10px;
+            }
+
             display: flex;
             align-items: baseline;
             gap: 6px;
@@ -34,9 +38,14 @@
                 font-weight: 400;
             }
         }
-        .collecttext{
+
+        .collecttext {
+            @media screen and (max-width: 768px) {
+                padding: 0px 10px;
+            }
             padding-left: 7rem;
-            p{
+
+            p {
                 color: #333e48;
                 font-size: 36px;
                 font-weight: 400;
@@ -45,8 +54,10 @@
             }
         }
     }
+
     #shopify {
         padding-top: 4.5rem;
+
         .container {
             .row {
                 .featured {
@@ -93,7 +104,8 @@
                                 font-family: 'Inter', sans-serif;
                                 cursor: pointer;
                                 transition: .3s ease-in-out;
-                                &:hover{
+
+                                &:hover {
                                     color: #fed700;
                                 }
                             }
@@ -120,6 +132,7 @@
                         }
                     }
                 }
+
                 .onsale {
                     p {
                         position: relative;
@@ -165,7 +178,8 @@
                                 font-family: 'Inter', sans-serif;
                                 cursor: pointer;
                                 transition: .3s ease-in-out;
-                                &:hover{
+
+                                &:hover {
                                     color: #fed700;
                                 }
                             }
@@ -192,6 +206,7 @@
                         }
                     }
                 }
+
                 .toprated {
                     p {
                         position: relative;
@@ -237,7 +252,8 @@
                                 font-family: 'Inter', sans-serif;
                                 cursor: pointer;
                                 transition: .3s ease-in-out;
-                                &:hover{
+
+                                &:hover {
                                     color: #fed700;
                                 }
                             }
@@ -264,10 +280,15 @@
                         }
                     }
                 }
-                .smartg3{
+
+                .smartg3 {
+                    @media screen and (max-width: 768px) {
+                        width: 312px;
+                    }
                     width: 340px;
                     height: 360px;
-                    img{
+
+                    img {
                         object-fit: cover;
                         object-position: center;
                         width: 100%;
@@ -278,29 +299,38 @@
             }
         }
     }
-    #inner{
-        .container{
-            .row{
+
+    #inner {
+        .container {
+            .row {
                 border-bottom: 1px solid #dddddd;
-                .collectproduct1{
+
+                .collectproduct1 {
+                    @media screen and (max-width: 768px) {
+                        margin: 0 auto;
+                    }
                     width: 218px;
                     height: 275px;
                     padding: 20px 0px;
                     cursor: pointer;
                     transition: .3s ease-in-out;
-                    &:hover{
+
+                    &:hover {
                         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
                     }
-                    img{
+
+                    img {
                         width: 100%;
                         height: 200px;
                         object-fit: cover;
                         object-position: center;
                         border-right: 1px solid #dddddd;
                     }
-                    p{
+
+                    p {
                         text-align: center;
-                        a{
+
+                        a {
                             text-decoration: none;
                             color: #333e48;
                             font-size: 18px;
@@ -308,7 +338,8 @@
                             font-family: 'Inter', sans-serif;
                             cursor: pointer;
                             transition: .3s ease-in-out;
-                            &:hover{
+
+                            &:hover {
                                 color: #fed700;
                             }
                         }

@@ -62,3 +62,49 @@ window.addEventListener("scroll", () => {
   }
 });
 // Navbar scrool code js end
+
+
+
+const MenuOpen = document.querySelector(".shopcart");
+const OpenList = document.querySelector(".shplist");
+
+if (MenuOpen) {
+    MenuOpen.addEventListener("click",()=>{
+        console.log("salam");
+        OpenList.classList.toggle("shopactive")
+    
+  })
+}
+
+const item = document.querySelector(".alldepart");
+const list  = document.querySelector(".departlist");
+if(item){
+  item.addEventListener("click",()=>{
+      console.log("salm");
+       list.classList.toggle("departactive")
+
+    })
+}
+const Menuitem = document.querySelector(".mobile-navclick");
+const Menulist  = document.querySelector(".menulist");
+if(Menuitem){
+  Menuitem.addEventListener("click",()=>{
+      console.log("salm");
+       Menulist.classList.toggle("activemobile")
+
+    })
+}
+
+
+const Navbar1 = document.querySelector(".mobilenav");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    if (Navbar1) {
+      Navbar1.classList.add("actice-nav1");
+    }
+  } else {
+    if (Navbar1) {
+      Navbar1.classList.remove("actice-nav1");
+    }
+  }
+});

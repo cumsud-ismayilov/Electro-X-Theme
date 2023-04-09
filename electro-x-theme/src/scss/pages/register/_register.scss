@@ -1,6 +1,10 @@
 #registermain{
     #banner {
+       
         .breadcrumb {
+            @media screen and (max-width: 768px) {
+                padding: 0px 10px;
+            }
             display: flex;
             align-items: baseline;
             gap: 6px;
@@ -465,6 +469,9 @@
                     }
                 }
                 .smartg3{
+                    @media screen and (max-width: 768px) {
+                      width: 312px;
+                    }
                     width: 340px;
                     height: 360px;
                     img{

@@ -7,6 +7,51 @@
     font-family: 'Inter', sans-serif;
 }
 
+.actice-nav {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:white !important;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    top: -50px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+.actice-nav1 {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:#fed700 !important;
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    top: -50px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
 // login slide star
 #loginslide{
   .swiper {
@@ -402,6 +447,11 @@ color: #333e48;
 // Home page slide 1 end
 
 // Home page slide 2 start
+#homeslide2{
+  @media screen and (max-width: 768px){
+   display: none;
+}
+}
 #carouselExampleIndicators{
   overflow: hidden;
 }
@@ -600,5 +650,204 @@ color: #333e48;
 
 // Home page slide 2 end
 
+// #Home page slide 3 start
+#cameras{
+  padding-bottom: 2rem;
+ .homeslide3{
+  padding: 15px 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  &:hover {
 
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
+
+}
+ }
+  p{
+    font-size: 11px;
+    color: #848484;
+    font-weight: 400;
+    margin-bottom: 7px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        color: #fed700;
+    }
+  }
+  h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #0062bd;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        color: #fed700;
+    }
+  }
+  .prod-price {
+    display: flex;
+    align-items: end;
+    gap: 8px;
+    padding-top: 16px;
+
+    h3 {
+        color: #dc3545;
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    del {
+        color: #848484;
+        font-size: 14px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+    }
+
+  .unavailable{
+    padding: 8px 22px;
+    background-color: #fed700;
+    font-size: 14px;
+    font-weight: 700;
+    width: 171px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+   
+
+    .bi-cart3 {
+        font-size: 19px;
+    }
+    &:hover{
+        background-color: #333e48;
+        border: 1px solid #333e48;
+        border: transparent;
+    }
+  }
+}
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .shoppingend {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+    border-top: 1px solid #dddddd;
+    transition: 0.3s ease-in-out;
+    gap: 28px;
+    padding-top: 7px;
+
+    .wish {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #878787;
+        cursor: pointer;
+
+        &:hover {
+            color: #fed700;
+        }
+
+        .fa-heart {}
+
+        p {
+
+            font-size: 14px;
+            font-weight: 400;
+            font-family: "Inter", sans-serif;
+            margin: 0;
+        }
+    }
+
+    .compar {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #878787;
+        cursor: pointer;
+
+        &:hover {
+            color: #fed700;
+        }
+
+        .fa-code-compare {}
+
+        p {
+
+            font-size: 14px;
+            font-weight: 400;
+            font-family: "Inter", sans-serif;
+            margin: 0;
+        }
+    }
+}
+}
+// #Home page slide 3 end
 
